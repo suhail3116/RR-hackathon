@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --rr-pink: #EB1485;
+    --rr-pink-hover: #D00F74;
+    --rr-navy: #0A192F;
+    --rr-navy-deep: #050E1D;
+    --rr-navy-card: #0F2341;
+    --rr-gold: #D4AF37;
+    --rr-gold-light: #FFDF73;
+    --rr-blue: #1E3A8A;
+  }
+  
+  body {
+    background-color: #050E1D;
+    color: #F8FAFC;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A192F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E3A8A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EB1485;
+}
+
+/* Glowing effects inspired by Lightswind UI */
+.rr-glow-pink {
+  box-shadow: 0 0 25px -5px rgba(235, 20, 133, 0.35);
+}
+
+.rr-glow-gold {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.35);
+}
+
+.rr-card-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.rr-card-border:hover {
+  border-color: rgba(235, 20, 133, 0.4);
+}
