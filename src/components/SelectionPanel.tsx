@@ -294,31 +294,44 @@ export const SelectionPanel: React.FC<SelectionPanelProps> = ({
                 )}
               </div>
 
-              {/* Secondary Stats: Off/Leg % for Batters or Overs/WIH for Bowlers */}
-              <div className="flex items-center justify-between text-xs text-slate-300 mb-3 px-1">
-                {!isBowler ? (
-                  <div className="flex items-center space-x-3">
-                    <span className="flex items-center gap-1 text-slate-400">
-                      <PieChart className="w-3.5 h-3.5 text-[#EB1485]" />
-                      <span>Off: <strong className="text-white">{player.batting.offside_pct}%</strong></span>
-                    </span>
-                    <span className="text-slate-500">|</span>
-                    <span>Leg: <strong className="text-white">{player.batting.onside_pct}%</strong></span>
-                  </div>
-                ) : (
-                  <div className="flex items-center space-x-3">
-                    <span className="text-slate-400">
-                      Overs: <strong className="text-white">{player.bowling.hp_overs} ov</strong>
-                    </span>
-                    <span className="text-slate-500">|</span>
-                    <span className="text-slate-400">
-                      RRR Def: <strong className="text-white">{player.bowling.avg_rrr_defended.toFixed(1)}</strong>
-                    </span>
-                  </div>
-                )}
+              {/* Career Normal Totals & Biomechanics */}
+              <div className="flex flex-col gap-1.5 text-xs text-slate-300 mb-3 px-1">
+                <div className="flex items-center justify-between text-[11px] bg-black/20 px-2 py-1 rounded-lg border border-white/5">
+                  <span className="text-slate-400">
+                    {isBowler ? 'Career Balls Bowled:' : 'Career Normal Runs:'}
+                  </span>
+                  <span className="font-bold text-white">
+                    {isBowler
+                      ? `${player.bowling.total_normal_balls} balls (${player.bowling.total_normal_wickets}w @ ${player.bowling.normal_economy})`
+                      : `${player.batting.total_normal_runs} runs (${player.batting.total_normal_balls}b @ ${player.batting.normal_strike_rate})`}
+                  </span>
+                </div>
 
-                <div className="text-xs text-slate-400">
-                  Death: <strong className="text-white">{isBowler ? player.bowling.death_pct : player.batting.death_pct}%</strong>
+                <div className="flex items-center justify-between text-[11px]">
+                  {!isBowler ? (
+                    <div className="flex items-center space-x-2">
+                      <span className="flex items-center gap-1 text-slate-400">
+                        <PieChart className="w-3 h-3 text-[#EB1485]" />
+                        <span>Off: <strong className="text-white">{player.batting.offside_pct}%</strong></span>
+                      </span>
+                      <span className="text-slate-500">|</span>
+                      <span>Leg: <strong className="text-white">{player.batting.onside_pct}%</strong></span>
+                    </div>
+                  ) : (
+                    <div className="flex items-center space-x-2">
+                      <span className="text-slate-400">
+                        HP Ov: <strong className="text-white">{player.bowling.hp_overs}</strong>
+                      </span>
+                      <span className="text-slate-500">|</span>
+                      <span className="text-slate-400">
+                        Target RRR: <strong className="text-white">{player.bowling.avg_rrr_defended.toFixed(1)}</strong>
+                      </span>
+                    </div>
+                  )}
+
+                  <div className="text-[11px] text-slate-400">
+                    Death: <strong className="text-white">{isBowler ? player.bowling.death_pct : player.batting.death_pct}%</strong>
+                  </div>
                 </div>
               </div>
 

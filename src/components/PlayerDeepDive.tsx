@@ -25,7 +25,9 @@ import {
   TrendingUp,
   Percent,
   CheckCircle2,
-  X
+  X,
+  Flame,
+  Crosshair
 } from 'lucide-react';
 
 interface PlayerDeepDiveProps {
@@ -40,6 +42,11 @@ const RR_GOLD = '#D4AF37';
 const RR_BLUE = '#1E3A8A';
 const RR_CYAN = '#06B6D4';
 const RR_EMERALD = '#10B981';
+const RR_PURPLE = '#8B5CF6';
+
+const STYLE_COLORS = [
+  '#EB1485', '#D4AF37', '#06B6D4', '#10B981', '#8B5CF6', '#F59E0B', '#EC4899', '#3B82F6'
+];
 
 export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
   player,
@@ -86,6 +93,22 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
     { name: 'Overs 1-15 (PP & Middle)', value: Math.max(0, 100 - bowl.death_pct), color: RR_BLUE },
   ];
 
+  // Bowler delivery styles for bar chart
+  const bowlerStylesData = (bowl.delivery_styles_list || []).map((item, idx) => ({
+    name: item.style,
+    balls: item.balls,
+    pct: item.pct,
+    fill: STYLE_COLORS[idx % STYLE_COLORS.length]
+  }));
+
+  // Bowler all wicket-taking delivery styles
+  const bowlerWktStylesData = (bowl.wicket_delivery_styles_list || []).map((item, idx) => ({
+    name: item.style,
+    wickets: item.wickets,
+    pct: item.pct,
+    fill: STYLE_COLORS[idx % STYLE_COLORS.length]
+  }));
+
   return (
     <div className={`space-y-6 ${isModal ? 'max-h-[85vh] overflow-y-auto pr-2' : ''}`}>
       {/* Top Banner Card */}
@@ -100,7 +123,7 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
                 onClick={onBackToSelection}
                 className="inline-flex items-center space-x-1.5 text-xs font-bold text-slate-400 hover:text-white mb-2 transition-colors"
               >
-                <span>← Back to Selection Panel</span>
+                <span>&larr; Back to Selection Board</span>
               </button>
             )}
             <div className="flex items-center space-x-2">
@@ -131,48 +154,68 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
             </div>
           </div>
 
-          {/* Quick Metrics KPI cards */}
+          {/* Quick Metrics KPI cards including Total Normal Runs and Total Balls Bowled */}
           <div className="flex flex-wrap gap-3">
             {isBowler ? (
               <>
+                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[110px]">
+                  <div className="text-[10px] text-slate-400 uppercase font-bold">Total Balls Bowled</div>
+                  <div className="text-lg font-black text-white">
+                    {bowl.total_normal_balls} b
+                  </div>
+                  <div className="text-[10px] text-slate-400">{bowl.total_normal_overs} ov @ {bowl.normal_economy} econ</div>
+                </div>
+                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
+                  <div className="text-[10px] text-slate-400 uppercase font-bold">Career Wickets</div>
+                  <div className="text-lg font-black text-[#EB1485]">
+                    {bowl.total_normal_wickets} w
+                  </div>
+                  <div className="text-[10px] text-slate-400">{bowl.normal_bowling_avg} avg</div>
+                </div>
                 <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
                   <div className="text-[10px] text-slate-400 uppercase font-bold">Suppression</div>
                   <div className="text-lg font-black text-[#D4AF37]">
                     +{bowl.defending_suppression.toFixed(2)} rpo
                   </div>
-                </div>
-                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
-                  <div className="text-[10px] text-slate-400 uppercase font-bold">Inn 2 Econ</div>
-                  <div className="text-lg font-black text-white">
-                    {bowl.inn2_economy.toFixed(2)}
-                  </div>
+                  <div className="text-[10px] text-slate-400">vs target RRR</div>
                 </div>
                 <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
                   <div className="text-[10px] text-slate-400 uppercase font-bold">HP Overs</div>
-                  <div className="text-lg font-black text-[#EB1485]">
+                  <div className="text-lg font-black text-white">
                     {bowl.hp_overs} ov
                   </div>
+                  <div className="text-[10px] text-slate-400">{bowl.hp_wickets} HP wkts</div>
                 </div>
               </>
             ) : (
               <>
+                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[110px]">
+                  <div className="text-[10px] text-slate-400 uppercase font-bold">Total Normal Runs</div>
+                  <div className="text-lg font-black text-white">
+                    {bat.total_normal_runs} r
+                  </div>
+                  <div className="text-[10px] text-slate-400">{bat.total_normal_balls} balls faced</div>
+                </div>
+                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
+                  <div className="text-[10px] text-slate-400 uppercase font-bold">Career SR / Avg</div>
+                  <div className="text-lg font-black text-[#D4AF37]">
+                    {bat.normal_strike_rate}
+                  </div>
+                  <div className="text-[10px] text-slate-400">{bat.normal_batting_avg} Avg</div>
+                </div>
                 <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
                   <div className="text-[10px] text-slate-400 uppercase font-bold">Inn 2 HP Runs</div>
                   <div className="text-lg font-black text-[#EB1485]">
                     {bat.inn2_hp_runs} r
                   </div>
-                </div>
-                <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
-                  <div className="text-[10px] text-slate-400 uppercase font-bold">Chasing SR</div>
-                  <div className="text-lg font-black text-[#D4AF37]">
-                    {bat.inn2_hp_sr.toFixed(1)}
-                  </div>
+                  <div className="text-[10px] text-slate-400">{bat.inn2_hp_sr.toFixed(1)} Chasing SR</div>
                 </div>
                 <div className="bg-black/40 border border-white/10 rounded-xl px-4 py-2 text-center min-w-[100px]">
                   <div className="text-[10px] text-slate-400 uppercase font-bold">Total HP Runs</div>
                   <div className="text-lg font-black text-white">
                     {bat.hp_runs} r
                   </div>
+                  <div className="text-[10px] text-slate-400">{bat.hp_sr.toFixed(1)} HP SR</div>
                 </div>
               </>
             )}
@@ -193,7 +236,7 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
 
       {/* CHARTS GRID */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* CHART 1: Off-side vs Leg-side PIE CHART (Requested Specifically by User) */}
+        {/* CHART 1: Off-side vs Leg-side PIE CHART (for Batters) or High Pressure Phase (for Bowlers) */}
         {!isBowler ? (
           <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
             <div className="flex items-center justify-between mb-4">
@@ -203,11 +246,11 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
                   <span>Off-side vs Leg-side Run Distribution (Pie Chart)</span>
                 </h3>
                 <p className="text-xs text-slate-400">
-                  Batting split from match data pack ({bat.total_runs} total career runs scored)
+                  Percentage of total scoring shots executed to off-side vs on-side
                 </p>
               </div>
               <span className="text-xs font-bold text-[#D4AF37] bg-[#D4AF37]/10 px-2 py-0.5 rounded-full border border-[#D4AF37]/20">
-                Wagon Wheel Split
+                Off {bat.offside_pct}% | Leg {bat.onside_pct}%
               </span>
             </div>
 
@@ -222,7 +265,7 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
                     outerRadius={85}
                     paddingAngle={4}
                     dataKey="value"
-                    label={({ name, percent }: any) => `${name ? name.split(' ')[0] : ''}: ${(percent * 100).toFixed(0)}%`}
+                    label={({ name, pct }: any) => `${name ? name.split(' ')[0] : ''}: ${pct}%`}
                   >
                     {offLegData.map((entry, index) => (
                       <Cell key={`cell-${index}`} fill={entry.color} stroke="#050E1D" strokeWidth={2} />
@@ -389,8 +432,54 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
           </div>
         </div>
 
-        {/* CHART 3: Top Stroke Types (Wagon Wheel Breakdown for Batters) */}
-        {!isBowler && strokesData.length > 0 && (
+        {/* CHART 3: Bowlers Bowling Style Bar (Requested Specifically by User) */}
+        {isBowler ? (
+          <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-[#EB1485]" />
+                  <span>Bowlers Bowling Style Distribution (Delivery Variations)</span>
+                </h3>
+                <p className="text-xs text-slate-400">
+                  Total deliveries tracked by variation style from ball-by-ball sensor tracking
+                </p>
+              </div>
+              <span className="text-xs font-bold text-[#D4AF37] bg-[#D4AF37]/10 px-2.5 py-0.5 rounded-full border border-[#D4AF37]/20">
+                {bowl.total_normal_balls} Total Balls
+              </span>
+            </div>
+
+            {/* Segmented Horizontal Bar */}
+            <div className="w-full bg-black/40 rounded-xl p-3 border border-white/10 mb-4">
+              <div className="h-6 w-full rounded-lg overflow-hidden flex shadow-inner">
+                {bowlerStylesData.map((item, idx) => (
+                  <div
+                    key={idx}
+                    style={{ width: `${item.pct}%`, backgroundColor: item.fill }}
+                    title={`${item.name}: ${item.balls} balls (${item.pct}%)`}
+                    className="h-full transition-all hover:opacity-80"
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Variation Styles Breakdown List */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
+              {bowlerStylesData.slice(0, 8).map((item, idx) => (
+                <div key={idx} className="bg-black/30 p-2 rounded-xl border border-white/5 text-center">
+                  <div className="flex items-center justify-center gap-1.5 mb-1">
+                    <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: item.fill }} />
+                    <span className="text-[11px] font-bold text-white truncate max-w-[90px]">{item.name}</span>
+                  </div>
+                  <div className="text-xs font-black text-[#D4AF37]">{item.balls} balls</div>
+                  <div className="text-[10px] text-slate-400">{item.pct}% share</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          /* CHART 3 for Batters: Top Stroke Types */
           <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
             <div className="flex items-center justify-between mb-4">
               <div>
@@ -420,8 +509,58 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
           </div>
         )}
 
-        {/* CHART 4: Pace vs Spin (for Batters) or Yorker & Delivery Style for Bowlers */}
-        {!isBowler ? (
+        {/* CHART 4: Bowlers All Wickets Taking Ball Style (Requested Specifically by User) */}
+        {isBowler ? (
+          <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Crosshair className="w-4 h-4 text-[#D4AF37]" />
+                  <span>Bowlers All Wickets Taking Ball Style</span>
+                </h3>
+                <p className="text-xs text-slate-400">
+                  Delivery variations that successfully claimed wickets in career
+                </p>
+              </div>
+              <span className="text-xs font-bold text-[#EB1485] bg-[#EB1485]/10 px-2.5 py-0.5 rounded-full border border-[#EB1485]/20">
+                {bowl.total_normal_wickets} Total Wickets
+              </span>
+            </div>
+
+            {bowlerWktStylesData.length > 0 ? (
+              <>
+                <div className="h-44">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={bowlerWktStylesData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#ffffff10" />
+                      <XAxis dataKey="name" stroke="#94a3b8" fontSize={10} interval={0} />
+                      <YAxis stroke="#94a3b8" fontSize={11} />
+                      <Tooltip
+                        contentStyle={{ backgroundColor: '#050E1D', borderColor: '#ffffff20', borderRadius: '12px' }}
+                      />
+                      <Bar dataKey="wickets" name="Wickets Taken" fill={RR_GOLD} radius={[6, 6, 0, 0]} />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-3">
+                  {bowlerWktStylesData.slice(0, 4).map((item, idx) => (
+                    <div key={idx} className="bg-black/30 p-2 rounded-xl border border-white/5 text-center">
+                      <div className="text-[11px] font-bold text-white truncate">{item.name}</div>
+                      <div className="text-sm font-black text-emerald-400">{item.wickets} wkts</div>
+                      <div className="text-[10px] text-slate-400">{item.pct}% of dismissals</div>
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : (
+              <div className="h-44 flex items-center justify-center text-xs text-slate-400">
+                No recorded wicket delivery variations in database.
+              </div>
+            )}
+          </div>
+        ) : (
+          /* Pace vs Spin for Batters */
           <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
             <div className="flex items-center justify-between mb-4">
               <div>
@@ -449,52 +588,6 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
                   <Bar dataKey="sr" name="Strike Rate" fill={RR_GOLD} radius={[6, 6, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
-            </div>
-          </div>
-        ) : (
-          <div className="bg-[#0F2341] border border-white/10 rounded-2xl p-5 shadow-xl">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <Activity className="w-4 h-4 text-[#D4AF37]" />
-                  <span>Delivery Variations &amp; Execution Control</span>
-                </h3>
-                <p className="text-xs text-slate-400">
-                  Frequency of bowling variations tracked under pressure
-                </p>
-              </div>
-            </div>
-
-            <div className="space-y-3 pt-2">
-              <div className="p-3 rounded-xl bg-black/40 border border-white/10 flex items-center justify-between text-xs">
-                <div>
-                  <div className="font-bold text-white">Runs Saved Above Par (RSA/100)</div>
-                  <div className="text-slate-400 text-[11px]">Cumulative defensive efficiency above league par</div>
-                </div>
-                <div className="text-base font-black text-[#D4AF37]">
-                  +{bowl.runs_saved_100.toFixed(1)} r
-                </div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-black/40 border border-white/10 flex items-center justify-between text-xs">
-                <div>
-                  <div className="font-bold text-white">Dot Ball Mastery Under Pressure</div>
-                  <div className="text-slate-400 text-[11px]">Percentage of high-pressure legal balls yielding 0 runs</div>
-                </div>
-                <div className="text-base font-black text-[#EB1485]">
-                  {bowl.dot_pct}%
-                </div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-black/40 border border-white/10 flex items-center justify-between text-xs">
-                <div>
-                  <div className="font-bold text-white">Defending Suppression Margin</div>
-                  <div className="text-slate-400 text-[11px]">Target RRR ({bowl.avg_rrr_defended.toFixed(1)}) minus Innings 2 Econ ({bowl.inn2_economy.toFixed(2)})</div>
-                </div>
-                <div className="text-base font-black text-emerald-400">
-                  +{bowl.defending_suppression.toFixed(2)} rpo
-                </div>
-              </div>
             </div>
           </div>
         )}

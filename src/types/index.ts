@@ -4,26 +4,58 @@ export interface StrokeItem {
   balls: number;
 }
 
+export interface DeliveryStyleItem {
+  style: string;
+  balls: number;
+  pct: number;
+}
+
+export interface WicketStyleItem {
+  style: string;
+  wickets: number;
+  pct: number;
+}
+
 export interface BattingStats {
-  total_runs: number;
-  balls_faced: number;
-  strike_rate: number;
+  // Total normal runs scored & career numbers
+  total_normal_runs: number;
+  total_normal_balls: number;
+  normal_strike_rate: number;
+  normal_batting_avg: number;
+  normal_fours: number;
+  normal_sixes: number;
+  normal_dots: number;
+  normal_dot_pct: number;
+
+  // Convenience aliases for backward compatibility
+  total_runs?: number;
+  balls_faced?: number;
+  strike_rate?: number;
+  dots?: number;
+  fours?: number;
+  sixes?: number;
+  batting_avg?: number;
+
+  // Off vs On side splits
   offside_runs: number;
   offside_balls: number;
   offside_pct: number;
   onside_runs: number;
   onside_balls: number;
   onside_pct: number;
+
+  // Pace vs Spin splits
   pace_runs: number;
   pace_balls: number;
   pace_sr: number;
   spin_runs: number;
   spin_balls: number;
   spin_sr: number;
-  fours: number;
-  sixes: number;
-  dots: number;
+
+  // Stroke breakdown
   top_strokes: StrokeItem[];
+
+  // High Pressure metrics
   hp_runs: number;
   hp_balls: number;
   hp_sr: number;
@@ -40,6 +72,17 @@ export interface BattingStats {
 }
 
 export interface BowlingStats {
+  // Total balls bowled & normal career numbers
+  total_normal_balls: number;
+  total_normal_overs: number;
+  total_normal_runs: number;
+  total_normal_wickets: number;
+  normal_economy: number;
+  normal_bowling_sr: number;
+  normal_bowling_avg: number;
+  normal_dot_pct: number;
+
+  // High Pressure metrics
   hp_overs: number;
   hp_balls: number;
   hp_runs: number;
@@ -54,7 +97,12 @@ export interface BowlingStats {
   dot_pct: number;
   runs_saved_100: number;
   clutch_delta: number;
+
+  // Delivery style bars & wicket style analysis
   delivery_styles: Record<string, number>;
+  delivery_styles_list: DeliveryStyleItem[];
+  wicket_delivery_styles: Record<string, number>;
+  wicket_delivery_styles_list: WicketStyleItem[];
 }
 
 export interface Player {
@@ -71,6 +119,9 @@ export interface Player {
   bopi: number;
   overall_clutch_score: number;
   hp_win_pct: number;
+  overall_win_pct: number;
+  total_matches: number;
+  hp_matches: number;
   tactical_role: string;
   strengths_summary: string;
   batting: BattingStats;

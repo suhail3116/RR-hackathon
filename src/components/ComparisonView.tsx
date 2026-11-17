@@ -101,8 +101,8 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
       },
       {
         metric: 'Chasing SR',
-        [player1.name]: player1.batting.inn2_hp_sr || player1.batting.strike_rate,
-        [player2.name]: player2.batting.inn2_hp_sr || player2.batting.strike_rate,
+        [player1.name]: player1.batting.inn2_hp_sr || player1.batting.normal_strike_rate || player1.batting.strike_rate || 0,
+        [player2.name]: player2.batting.inn2_hp_sr || player2.batting.normal_strike_rate || player2.batting.strike_rate || 0,
         unit: 'SR'
       },
       {
@@ -113,14 +113,14 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
       },
       {
         metric: 'Dot Ball %',
-        [player1.name]: player1.role === 'Bowler' ? player1.bowling.dot_pct : Math.round((player1.batting.dots / (player1.batting.balls_faced || 1)) * 100),
-        [player2.name]: player2.role === 'Bowler' ? player2.bowling.dot_pct : Math.round((player2.batting.dots / (player2.batting.balls_faced || 1)) * 100),
+        [player1.name]: player1.role === 'Bowler' ? (player1.bowling.normal_dot_pct ?? player1.bowling.dot_pct) : (player1.batting.normal_dot_pct ?? Math.round(((player1.batting.normal_dots ?? player1.batting.dots ?? 0) / (player1.batting.total_normal_balls ?? player1.batting.balls_faced ?? 1)) * 100)),
+        [player2.name]: player2.role === 'Bowler' ? (player2.bowling.normal_dot_pct ?? player2.bowling.dot_pct) : (player2.batting.normal_dot_pct ?? Math.round(((player2.batting.normal_dots ?? player2.batting.dots ?? 0) / (player2.batting.total_normal_balls ?? player2.batting.balls_faced ?? 1)) * 100)),
         unit: '%'
       },
       {
         metric: 'Boundary %',
-        [player1.name]: player1.role === 'Bowler' ? 18.6 : Math.round(((player1.batting.fours + player1.batting.sixes) / (player1.batting.balls_faced || 1)) * 100),
-        [player2.name]: player2.role === 'Bowler' ? 18.6 : Math.round(((player2.batting.fours + player2.batting.sixes) / (player2.batting.balls_faced || 1)) * 100),
+        [player1.name]: player1.role === 'Bowler' ? 18.6 : Math.round((((player1.batting.normal_fours ?? player1.batting.fours ?? 0) + (player1.batting.normal_sixes ?? player1.batting.sixes ?? 0)) / (player1.batting.total_normal_balls ?? player1.batting.balls_faced ?? 1)) * 100),
+        [player2.name]: player2.role === 'Bowler' ? 18.6 : Math.round((((player2.batting.normal_fours ?? player2.batting.fours ?? 0) + (player2.batting.normal_sixes ?? player2.batting.sixes ?? 0)) / (player2.batting.total_normal_balls ?? player2.batting.balls_faced ?? 1)) * 100),
         unit: '%'
       }
     ];
@@ -159,7 +159,7 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
         val = p.bowling.defending_suppression;
         label = `+${val.toFixed(2)} rpo`;
       } else if (cohortMetric === 'chasing_sr') {
-        val = p.batting.inn2_hp_sr || p.batting.strike_rate;
+        val = p.batting.inn2_hp_sr || p.batting.normal_strike_rate || p.batting.strike_rate || 0;
         label = `${val.toFixed(1)} SR`;
       } else if (cohortMetric === 'win_pct') {
         val = p.hp_win_pct;
@@ -425,7 +425,7 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     <span className="font-bold text-slate-200 flex items-center gap-1">
                       <Compass className="w-3.5 h-3.5 text-[#EB1485]" /> Off-side vs Leg-side Run Split
                     </span>
-                    <span className="text-[11px] text-slate-400">{player1.batting.total_runs} career runs</span>
+                    <span className="text-[11px] text-slate-400">{player1.batting.total_normal_runs ?? player1.batting.total_runs} career runs</span>
                   </div>
 
                   <div className="h-32 flex items-center justify-center">
@@ -468,15 +468,21 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                 {/* Additional Batting Signals */}
                 <div className="text-xs text-slate-300 space-y-1.5 pt-1">
                   <div className="flex justify-between">
+                    <span className="text-slate-400">Total Career Normal:</span>
+                    <strong className="text-white">
+                      {player1.batting.total_normal_runs} r ({player1.batting.total_normal_balls}b @ {player1.batting.normal_strike_rate} SR)
+                    </strong>
+                  </div>
+                  <div className="flex justify-between">
                     <span className="text-slate-400">Dot Ball % Faced:</span>
                     <strong className="text-white">
-                      {Math.round((player1.batting.dots / (player1.batting.balls_faced || 1)) * 100)}% ({player1.batting.dots} dots)
+                      {player1.batting.normal_dot_pct ?? Math.round(((player1.batting.normal_dots ?? player1.batting.dots ?? 0) / (player1.batting.total_normal_balls ?? player1.batting.balls_faced ?? 1)) * 100)}% ({player1.batting.normal_dots ?? player1.batting.dots ?? 0} dots)
                     </strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Boundaries Scored:</span>
                     <strong className="text-[#EB1485]">
-                      {player1.batting.fours + player1.batting.sixes} ({player1.batting.fours} fours, {player1.batting.sixes} sixes)
+                      {(player1.batting.normal_fours ?? player1.batting.fours ?? 0) + (player1.batting.normal_sixes ?? player1.batting.sixes ?? 0)} ({(player1.batting.normal_fours ?? player1.batting.fours ?? 0)} fours, {(player1.batting.normal_sixes ?? player1.batting.sixes ?? 0)} sixes)
                     </strong>
                   </div>
                   <div className="flex justify-between">
@@ -524,8 +530,14 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
 
                 <div className="text-xs text-slate-300 space-y-1.5 pt-1">
                   <div className="flex justify-between">
+                    <span className="text-slate-400">Total Career Balls Bowled:</span>
+                    <strong className="text-white">
+                      {player1.bowling.total_normal_balls} b ({player1.bowling.total_normal_wickets}w @ {player1.bowling.normal_economy})
+                    </strong>
+                  </div>
+                  <div className="flex justify-between">
                     <span className="text-slate-400">HP Economy &amp; Bowling SR:</span>
-                    <strong className="text-white">{player1.bowling.hp_economy.toFixed(2)} rpo / 12.8 SR</strong>
+                    <strong className="text-white">{player1.bowling.hp_economy.toFixed(2)} rpo / {player1.bowling.normal_bowling_sr} SR</strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Target RRR Defended:</span>
@@ -623,7 +635,7 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     <span className="font-bold text-slate-200 flex items-center gap-1">
                       <Compass className="w-3.5 h-3.5 text-[#EB1485]" /> Off-side vs Leg-side Run Split
                     </span>
-                    <span className="text-[11px] text-slate-400">{player2.batting.total_runs} career runs</span>
+                    <span className="text-[11px] text-slate-400">{player2.batting.total_normal_runs ?? player2.batting.total_runs} career runs</span>
                   </div>
 
                   <div className="h-32 flex items-center justify-center">
@@ -666,15 +678,21 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                 {/* Additional Batting Signals */}
                 <div className="text-xs text-slate-300 space-y-1.5 pt-1">
                   <div className="flex justify-between">
+                    <span className="text-slate-400">Total Career Normal:</span>
+                    <strong className="text-white">
+                      {player2.batting.total_normal_runs} r ({player2.batting.total_normal_balls}b @ {player2.batting.normal_strike_rate} SR)
+                    </strong>
+                  </div>
+                  <div className="flex justify-between">
                     <span className="text-slate-400">Dot Ball % Faced:</span>
                     <strong className="text-white">
-                      {Math.round((player2.batting.dots / (player2.batting.balls_faced || 1)) * 100)}% ({player2.batting.dots} dots)
+                      {player2.batting.normal_dot_pct ?? Math.round(((player2.batting.normal_dots ?? player2.batting.dots ?? 0) / (player2.batting.total_normal_balls ?? player2.batting.balls_faced ?? 1)) * 100)}% ({player2.batting.normal_dots ?? player2.batting.dots ?? 0} dots)
                     </strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Boundaries Scored:</span>
                     <strong className="text-[#EB1485]">
-                      {player2.batting.fours + player2.batting.sixes} ({player2.batting.fours} fours, {player2.batting.sixes} sixes)
+                      {(player2.batting.normal_fours ?? player2.batting.fours ?? 0) + (player2.batting.normal_sixes ?? player2.batting.sixes ?? 0)} ({(player2.batting.normal_fours ?? player2.batting.fours ?? 0)} fours, {(player2.batting.normal_sixes ?? player2.batting.sixes ?? 0)} sixes)
                     </strong>
                   </div>
                   <div className="flex justify-between">
@@ -722,8 +740,14 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
 
                 <div className="text-xs text-slate-300 space-y-1.5 pt-1">
                   <div className="flex justify-between">
+                    <span className="text-slate-400">Total Career Balls Bowled:</span>
+                    <strong className="text-white">
+                      {player2.bowling.total_normal_balls} b ({player2.bowling.total_normal_wickets}w @ {player2.bowling.normal_economy})
+                    </strong>
+                  </div>
+                  <div className="flex justify-between">
                     <span className="text-slate-400">HP Economy &amp; Bowling SR:</span>
-                    <strong className="text-white">{player2.bowling.hp_economy.toFixed(2)} rpo / 12.8 SR</strong>
+                    <strong className="text-white">{player2.bowling.hp_economy.toFixed(2)} rpo / {player2.bowling.normal_bowling_sr} SR</strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Target RRR Defended:</span>

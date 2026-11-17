@@ -1,9 +1,9 @@
 import React from 'react';
-import { Shield, BarChart3, Users, FileSpreadsheet, BookOpen, Sparkles } from 'lucide-react';
+import { Shield, BarChart3, Users, FileSpreadsheet, BookOpen, Sparkles, Zap } from 'lucide-react';
 
 interface HeaderProps {
-  activeTab: 'selection' | 'deepdive' | 'comparison' | 'table' | 'methodology';
-  setActiveTab: (tab: 'selection' | 'deepdive' | 'comparison' | 'table' | 'methodology') => void;
+  activeTab: 'selection' | 'deepdive' | 'comparison' | 'table' | 'top50' | 'methodology';
+  setActiveTab: (tab: 'selection' | 'deepdive' | 'comparison' | 'table' | 'top50' | 'methodology') => void;
   selectedPlayerName?: string;
   totalPlayers: number;
 }
@@ -50,8 +50,8 @@ export const Header: React.FC<HeaderProps> = ({
               <div className="font-bold text-[#EB1485] text-sm">70,739 (35.2%)</div>
             </div>
             <div className="text-right">
-              <div className="text-slate-400">Roster Pool</div>
-              <div className="font-bold text-[#D4AF37] text-sm">{totalPlayers} Profiled Players</div>
+              <div className="text-slate-400">Total Profiled Roster</div>
+              <div className="font-bold text-[#D4AF37] text-sm">{totalPlayers} Players</div>
             </div>
           </div>
         </div>
@@ -60,19 +60,19 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex space-x-2 overflow-x-auto pb-2 pt-1 border-t border-white/5 scrollbar-none">
           <button
             onClick={() => setActiveTab('selection')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
               activeTab === 'selection'
                 ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
                 : 'text-slate-400 hover:text-white hover:bg-white/5'
             }`}
           >
             <Users className="w-4 h-4" />
-            <span>🎯 SupeRR Selection Panel</span>
+            <span>🎯 Selection Panel ({totalPlayers})</span>
           </button>
 
           <button
             onClick={() => setActiveTab('deepdive')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
               activeTab === 'deepdive'
                 ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
                 : 'text-slate-400 hover:text-white hover:bg-white/5'
@@ -80,13 +80,13 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <BarChart3 className="w-4 h-4" />
             <span>
-              📊 Player Deep Dive {selectedPlayerName ? `(${selectedPlayerName})` : ''}
+              📊 Deep Dive {selectedPlayerName ? `(${selectedPlayerName})` : ''}
             </span>
           </button>
 
           <button
             onClick={() => setActiveTab('comparison')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
               activeTab === 'comparison'
                 ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
                 : 'text-slate-400 hover:text-white hover:bg-white/5'
@@ -98,26 +98,38 @@ export const Header: React.FC<HeaderProps> = ({
 
           <button
             onClick={() => setActiveTab('table')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
               activeTab === 'table'
                 ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
                 : 'text-slate-400 hover:text-white hover:bg-white/5'
             }`}
           >
             <FileSpreadsheet className="w-4 h-4" />
-            <span>📑 Top 100 Excel Master Explorer</span>
+            <span>📑 Top 100 Excel Master Sheets</span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('top50')}
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+              activeTab === 'top50'
+                ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <Zap className="w-4 h-4 text-[#D4AF37]" />
+            <span>⚡ Top 50 Tactical Sheets (Inn 2)</span>
           </button>
 
           <button
             onClick={() => setActiveTab('methodology')}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
+            className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap ${
               activeTab === 'methodology'
                 ? 'bg-[#EB1485] text-white shadow-lg shadow-[#EB1485]/30'
                 : 'text-slate-400 hover:text-white hover:bg-white/5'
             }`}
           >
             <BookOpen className="w-4 h-4" />
-            <span>📘 Methodology & Indicators (WIH, Suppression)</span>
+            <span>📘 Methodology Report</span>
           </button>
         </div>
       </div>

@@ -6,15 +6,15 @@ import { SelectionPanel } from './components/SelectionPanel';
 import { PlayerDeepDive } from './components/PlayerDeepDive';
 import { ComparisonView } from './components/ComparisonView';
 import { Top100TableView } from './components/Top100TableView';
+import { Top50SheetsView } from './components/Top50SheetsView';
 import { MethodologyView } from './components/MethodologyView';
 import { PlayerModal } from './components/PlayerModal';
-import { Shield, Sparkles, Trophy, Heart } from 'lucide-react';
 
-const data = dashboardDataRaw as DashboardData;
+const data = (dashboardDataRaw as unknown) as DashboardData;
 const playersList: Player[] = data.players;
 
 export const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'selection' | 'deepdive' | 'comparison' | 'table' | 'methodology'>('selection');
+  const [activeTab, setActiveTab] = useState<'selection' | 'deepdive' | 'comparison' | 'table' | 'top50' | 'methodology'>('selection');
   const [selectedPlayer, setSelectedPlayer] = useState<Player>(playersList[0] || null);
   const [modalPlayer, setModalPlayer] = useState<Player | null>(null);
 
@@ -64,6 +64,13 @@ export const App: React.FC = () => {
           />
         )}
 
+        {activeTab === 'top50' && (
+          <Top50SheetsView
+            players={playersList}
+            onSelectPlayer={handleSelectPlayer}
+          />
+        )}
+
         {activeTab === 'methodology' && <MethodologyView />}
       </main>
 
@@ -90,7 +97,7 @@ export const App: React.FC = () => {
           <div className="flex items-center space-x-4 text-[11px] text-slate-400">
             <span>Evaluated: 200,999 Balls Across 883 Matches (2022–2026)</span>
             <span>•</span>
-            <span className="text-slate-300">IPL 2027 Auction Ready</span>
+            <span className="text-slate-300">IPL 2027 Auction Ready • {playersList.length} Profiled Players</span>
           </div>
         </div>
       </footer>
