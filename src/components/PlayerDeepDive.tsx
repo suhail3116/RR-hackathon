@@ -111,7 +111,7 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
                 {player.role}
               </span>
               <span className="px-2.5 py-0.5 rounded-lg bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-xs font-bold flex items-center gap-1">
-                <Trophy className="w-3 h-3" /> {player.hp_win_pct}% Win Rate
+                <Trophy className="w-3 h-3" /> {player.hp_win_pct.toFixed(1)}% Win Rate
               </span>
             </div>
 

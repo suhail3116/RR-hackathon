@@ -24,9 +24,15 @@ export const SelectionPanel: React.FC<SelectionPanelProps> = ({
       if (roleFilter !== 'All' && player.role !== roleFilter) return false;
 
       // Category match
-      if (categoryFilter === 'top20_bat' && (player.role !== 'Batter' || player.batting.hp_runs < 400)) return false;
-      if (categoryFilter === 'top20_bowl' && (player.role !== 'Bowler' || player.bowling.hp_overs < 30)) return false;
-      if (categoryFilter === 'knockout' && player.hp_win_pct < 60) return false;
+      if (categoryFilter === 'top20_bat') {
+        const isBat = player.role === 'Batter' || (player.role === 'All-rounder' && player.batting.hp_runs >= 100);
+        if (!isBat || (player.batting.hp_runs < 300 && player.auction_rank > 30)) return false;
+      }
+      if (categoryFilter === 'top20_bowl') {
+        const isBowl = player.role === 'Bowler' || (player.role === 'All-rounder' && player.bowling.hp_overs >= 20);
+        if (!isBowl || (player.bowling.hp_overs < 25 && player.auction_rank > 30)) return false;
+      }
+      if (categoryFilter === 'knockout' && player.hp_win_pct < 55) return false;
 
       // Search match
       if (searchTerm) {

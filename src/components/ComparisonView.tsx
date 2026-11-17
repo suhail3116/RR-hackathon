@@ -367,7 +367,7 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     AUCTION RANK #{player1.auction_rank}
                   </span>
                   <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold flex items-center gap-1">
-                    <Trophy className="w-3 h-3" /> {player1.hp_win_pct}% Win Rate
+                    <Trophy className="w-3 h-3" /> {player1.hp_win_pct.toFixed(1)}% Win Rate
                   </span>
                 </div>
                 <h3 className="text-2xl font-black text-white">{player1.name}</h3>
@@ -565,7 +565,7 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     AUCTION RANK #{player2.auction_rank}
                   </span>
                   <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold flex items-center gap-1">
-                    <Trophy className="w-3 h-3" /> {player2.hp_win_pct}% Win Rate
+                    <Trophy className="w-3 h-3" /> {player2.hp_win_pct.toFixed(1)}% Win Rate
                   </span>
                 </div>
                 <h3 className="text-2xl font-black text-white">{player2.name}</h3>
