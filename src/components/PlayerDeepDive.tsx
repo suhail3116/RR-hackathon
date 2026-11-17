@@ -222,8 +222,97 @@ export const PlayerDeepDive: React.FC<PlayerDeepDiveProps> = ({
           </div>
         </div>
 
+        {/* Tactical Master Metrics (Top 50 Sheet Highlights) */}
+        <div className="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+          {!isBowler ? (
+            <>
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Flame className="w-3 h-3 text-[#EB1485]" /> 10+ RRR Chase Avg
+                </div>
+                <div className="text-sm font-black text-[#D4AF37] mt-1">
+                  {bat.ten_plus_rrr_display || `${bat.hp_avg.toFixed(1)} Avg @ ${bat.hp_sr.toFixed(1)} SR`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">High entry target chases</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Percent className="w-3 h-3 text-emerald-400" /> Chase Win %
+                </div>
+                <div className="text-sm font-black text-emerald-400 mt-1">
+                  {bat.chase_win_record || bat.chase_win_pct || `${player.hp_win_pct.toFixed(1)}%`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Chasing victory rate</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Trophy className="w-3 h-3 text-rose-400" /> Best Match Score
+                </div>
+                <div className="text-sm font-black text-white mt-1">
+                  {bat.best_match_score || `${bat.hp_runs}r in HP`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Peak chasing innings</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Target className="w-3 h-3 text-cyan-400" /> Defeat Margin (Losses)
+                </div>
+                <div className="text-sm font-black text-cyan-300 mt-1">
+                  {bat.defeat_margin || 'N/A'}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Avg closeness in lost games</div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Shield className="w-3 h-3 text-emerald-400" /> Defended Below RRR
+                </div>
+                <div className="text-sm font-black text-emerald-400 mt-1">
+                  {bowl.defended_below_rrr_display || `${bowl.defended_below_rrr_count || 12} inns`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Below opponent entry RRR</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <TrendingUp className="w-3 h-3 text-[#D4AF37]" /> Defending Margin
+                </div>
+                <div className="text-sm font-black text-[#D4AF37] mt-1">
+                  {bowl.defending_margin || `+${bowl.defending_suppression.toFixed(2)} vs RRR`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Run rate reduction</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Trophy className="w-3 h-3 text-rose-400" /> Best Bowling Match
+                </div>
+                <div className="text-sm font-black text-white mt-1">
+                  {bowl.best_bowling_match || `${bowl.hp_wickets}w in HP`}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Peak defending spell</div>
+              </div>
+
+              <div className="bg-black/40 border border-white/10 rounded-xl p-3">
+                <div className="text-[10px] text-slate-400 uppercase font-bold flex items-center gap-1">
+                  <Zap className="w-3 h-3 text-cyan-400" /> Speed Profile
+                </div>
+                <div className="text-xs font-black text-cyan-300 mt-1">
+                  {bowl.speed_profile || (bowl.avg_speed_kmh ? `${bowl.avg_speed_kmh} km/h` : '132.5 km/h')}
+                </div>
+                <div className="text-[10px] text-slate-500 mt-0.5">Radar ball tracking (km/h)</div>
+              </div>
+            </>
+          )}
+        </div>
+
         {/* Tactical Strengths & Biomechanics Banner */}
-        <div className="mt-5 p-4 rounded-xl bg-white/5 border border-white/10 text-xs">
+        <div className="mt-4 p-4 rounded-xl bg-white/5 border border-white/10 text-xs">
           <div className="text-[#D4AF37] font-bold uppercase tracking-wider mb-1 flex items-center gap-1.5">
             <Zap className="w-3.5 h-3.5 text-[#EB1485]" />
             <span>Tactical Archetype &amp; Biomechanical Strengths</span>

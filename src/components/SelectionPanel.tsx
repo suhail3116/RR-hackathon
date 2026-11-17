@@ -307,6 +307,28 @@ export const SelectionPanel: React.FC<SelectionPanelProps> = ({
                   </span>
                 </div>
 
+                <div className="flex items-center justify-between text-[11px] bg-[#0A192F]/60 px-2 py-1 rounded-lg border border-white/5 text-slate-300">
+                  {!isBowler ? (
+                    <>
+                      <span className="text-[#D4AF37] font-semibold truncate max-w-[160px]">
+                        10+ RRR: {player.batting.ten_plus_rrr_display || `${player.batting.hp_avg.toFixed(1)} Avg`}
+                      </span>
+                      <span className="text-rose-300 font-medium truncate max-w-[110px]">
+                        Best: {player.batting.best_match_score || `${player.batting.hp_runs}r`}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="text-emerald-400 font-semibold truncate max-w-[160px]">
+                        Def &lt; RRR: {player.bowling.defended_below_rrr_display || `${player.bowling.defended_below_rrr_count || 12} inns`}
+                      </span>
+                      <span className="text-cyan-300 font-medium truncate max-w-[110px]">
+                        Spd: {player.bowling.speed_profile ? player.bowling.speed_profile.split('(')[0].trim() : '132.5 km/h'}
+                      </span>
+                    </>
+                  )}
+                </div>
+
                 <div className="flex items-center justify-between text-[11px]">
                   {!isBowler ? (
                     <div className="flex items-center space-x-2">

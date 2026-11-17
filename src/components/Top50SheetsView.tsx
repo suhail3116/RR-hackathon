@@ -2,7 +2,16 @@ import React, { useState, useMemo } from 'react';
 import top50BattersRaw from '../data/top50_batters_sheet.json';
 import top50BowlersRaw from '../data/top50_bowlers_sheet.json';
 import { Player } from '../types';
-import { Search, Download, FileSpreadsheet, ArrowUpDown, ExternalLink, ShieldCheck, Zap, Trophy, Flame } from 'lucide-react';
+import {
+  Search,
+  Download,
+  FileSpreadsheet,
+  ArrowUpDown,
+  ExternalLink,
+  Flame,
+  Shield,
+  Zap
+} from 'lucide-react';
 
 interface Top50SheetsViewProps {
   players: Player[];
@@ -38,7 +47,13 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
       const term = searchTerm.toLowerCase();
       list = list.filter((row) => {
         const name = (row['Batter Name'] || row['Bowler Name'] || '').toLowerCase();
-        const role = (row['Primary Batting Order'] || row['Tactical Role'] || row['Speed Profile'] || '').toLowerCase();
+        const role = (
+          row['Primary Batting Order'] ||
+          row['Tactical Role'] ||
+          row['Speed Profile'] ||
+          row['Top Wicket Delivery Style (Inn 2)'] ||
+          ''
+        ).toLowerCase();
         return name.includes(term) || role.includes(term);
       });
     }
@@ -104,13 +119,13 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
           <div>
             <div className="flex items-center space-x-2 text-xs font-bold text-[#D4AF37] uppercase tracking-wider mb-1">
               <Zap className="w-4 h-4 text-[#EB1485]" />
-              <span>Rajasthan Royals • Master Workbook Sheets 3 & 4</span>
+              <span>Rajasthan Royals • Master Workbook Sheets 3 &amp; 4</span>
             </div>
             <h2 className="text-2xl font-black text-white tracking-tight">
-              Top 50 Innings 2 Chasing & Defending Masters
+              Top 50 Innings 2 Tactical Masters
             </h2>
             <p className="text-sm text-slate-300 mt-1 max-w-2xl">
-              Direct interactive replicas of the official <strong>Top 50 Batters (Innings 2 Chase Master)</strong> and <strong>Top 50 Bowlers (Innings 2 Defending Master)</strong> sheets from the tactical auction workbook.
+              Complete situational analysis covering <strong>10+ RRR Chase Avg</strong>, <strong>Chase Win %</strong>, <strong>Best Match Scores</strong>, <strong>Defended Below RRR</strong>, <strong>Best Bowling Matches</strong>, and <strong>Ball Speed Profiles</strong>.
             </p>
           </div>
 
@@ -161,23 +176,23 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
               }}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg font-bold transition-all ${
                 subTab === 'bowlers'
-                  ? 'bg-[#EB1485] text-white shadow-md'
+                  ? 'bg-[#004BA0] text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
               }`}
             >
-              <ShieldCheck className="w-3.5 h-3.5" />
+              <Shield className="w-3.5 h-3.5" />
               <span>Top 50 Bowlers (Innings 2 Defending)</span>
             </button>
           </div>
 
-          <div className="relative w-full md:w-80">
-            <Search className="absolute left-3.5 top-3 w-4 h-4 text-slate-400" />
+          <div className="relative w-full md:w-72">
+            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder={subTab === 'batters' ? 'Search chasing batters, position...' : 'Search defending bowlers, variation...'}
+              placeholder={`Search ${subTab === 'batters' ? 'batters' : 'bowlers'}...`}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full bg-[#050E1D] border border-white/15 rounded-xl pl-10 pr-4 py-2 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-[#EB1485]"
+              className="w-full pl-9 pr-4 py-2 bg-black/40 border border-white/10 rounded-xl text-xs text-white placeholder-slate-400 focus:outline-none focus:border-[#EB1485] transition-all"
             />
           </div>
         </div>
@@ -185,9 +200,10 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
 
       {/* Main Table */}
       <div className="bg-[#0F2341] border border-white/10 rounded-2xl shadow-2xl overflow-hidden">
-        <div className="overflow-x-auto max-h-[650px] scrollbar-thin scrollbar-thumb-white/20">
+        <div className="overflow-x-auto max-h-[700px] scrollbar-thin scrollbar-thumb-white/20">
           {subTab === 'batters' ? (
-            <table className="w-full text-left text-xs text-slate-300 min-w-[1100px]">
+            /* Top 50 Batters (Innings 2 Chase Tactical Master) */
+            <table className="w-full text-left text-xs text-slate-300 min-w-[1350px]">
               <thead className="sticky top-0 z-20 bg-[#0A192F] text-slate-400 uppercase text-[10px] font-black tracking-wider border-b border-white/10 shadow-sm">
                 <tr>
                   <th onClick={() => handleSort('Rank')} className="py-3 px-3 cursor-pointer hover:text-white">
@@ -197,23 +213,25 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                     <span className="flex items-center gap-1">Batter Name <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
                   <th className="py-3 px-3">Primary Batting Order</th>
+                  <th onClick={() => handleSort('chase_win_pct')} className="py-3 px-3 cursor-pointer hover:text-white text-emerald-400">
+                    <span className="flex items-center gap-1">Chase Win % <ArrowUpDown className="w-3 h-3" /></span>
+                  </th>
+                  <th onClick={() => handleSort('ten_plus_rrr_avg')} className="py-3 px-3 cursor-pointer hover:text-white text-[#D4AF37]">
+                    <span className="flex items-center gap-1">10+ RRR Chase Avg <ArrowUpDown className="w-3 h-3" /></span>
+                  </th>
+                  <th className="py-3 px-3 text-rose-300 font-bold">Best Match Score</th>
                   <th onClick={() => handleSort('Avg Match Entry RRR')} className="py-3 px-3 cursor-pointer hover:text-white text-[#EB1485]">
                     <span className="flex items-center gap-1">Entry RRR <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
-                  <th onClick={() => handleSort('Chase SR from Ball 1 (Overall)')} className="py-3 px-3 cursor-pointer hover:text-white text-[#D4AF37]">
+                  <th onClick={() => handleSort('Chase SR from Ball 1 (Overall)')} className="py-3 px-3 cursor-pointer hover:text-white">
                     <span className="flex items-center gap-1">Chase SR <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
                   <th onClick={() => handleSort('Chase Batting Avg from Ball 1')} className="py-3 px-3 cursor-pointer hover:text-white">
                     <span className="flex items-center gap-1">Chase Avg <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
-                  <th onClick={() => handleSort('10+ Entry RRR Chase Avg (SORT)')} className="py-3 px-3 cursor-pointer hover:text-white text-emerald-400">
-                    <span className="flex items-center gap-1">10+ RRR Chase Avg <ArrowUpDown className="w-3 h-3" /></span>
-                  </th>
-                  <th onClick={() => handleSort('Chase Match Win %')} className="py-3 px-3 cursor-pointer hover:text-white text-emerald-400">
-                    <span className="flex items-center gap-1">Chase Win % <ArrowUpDown className="w-3 h-3" /></span>
-                  </th>
-                  <th className="py-3 px-3">Innings & Balls Faced</th>
-                  <th className="py-3 px-3">Best Match Score</th>
+                  <th className="py-3 px-3">Total Chasing Normal</th>
+                  <th className="py-3 px-3">Defeat Margin (Losses)</th>
+                  <th className="py-3 px-3">Top Boundary Stroke</th>
                   <th className="py-3 px-3 text-right">Deep Dive</th>
                 </tr>
               </thead>
@@ -234,26 +252,34 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                       <td className="py-3 px-3 text-slate-300 text-[11px] max-w-xs truncate">
                         {row['Primary Batting Order']}
                       </td>
+                      <td className="py-3 px-3">
+                        <span className="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                          {row['chase_win_record'] || row['chase_win_pct'] || 'N/A'}
+                        </span>
+                      </td>
+                      <td className="py-3 px-3 font-black text-[#D4AF37]">
+                        {row['ten_plus_rrr_display'] || 'N/A'}
+                      </td>
+                      <td className="py-3 px-3 font-bold text-rose-300">
+                        {row['best_match_score'] || row['High Score Match (Inn 2)'] || 'N/A'}
+                      </td>
                       <td className="py-3 px-3 font-black text-[#EB1485]">
                         {row['Avg Match Entry RRR']} rpo
                       </td>
-                      <td className="py-3 px-3 font-bold text-[#D4AF37]">
+                      <td className="py-3 px-3 font-bold text-slate-200">
                         {row['Chase SR from Ball 1 (Overall)']}
                       </td>
-                      <td className="py-3 px-3 font-semibold text-slate-200">
+                      <td className="py-3 px-3 font-semibold text-slate-300">
                         {row['Chase Batting Avg from Ball 1']}
                       </td>
-                      <td className="py-3 px-3 font-black text-emerald-400">
-                        {row['10+ Entry RRR Chase Avg (SORT)']}
-                      </td>
-                      <td className="py-3 px-3 font-bold text-emerald-300">
-                        {row['Chase Match Win %']}
-                      </td>
                       <td className="py-3 px-3 text-slate-300 text-[11px]">
-                        {row['tot_inns']} inn ({row['tot_runs']}r / {row['tot_bf']}b)
+                        {row['Total Runs (Inn 2)']}r ({row['Balls Faced (Inn 2)']}b)
                       </td>
                       <td className="py-3 px-3 text-slate-400 text-[11px] max-w-xs truncate">
-                        {row['best_match_score']}
+                        {row['Avg Defeat Margin in Lost Chases (Runs)'] || 'N/A'}
+                      </td>
+                      <td className="py-3 px-3 text-slate-300 text-[11px] max-w-xs truncate">
+                        {row['Top Boundary Stroke (Inn 2)'] || 'N/A'}
                       </td>
                       <td className="py-3 px-3 text-right">
                         {matchedPlayer && (
@@ -274,7 +300,8 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
               </tbody>
             </table>
           ) : (
-            <table className="w-full text-left text-xs text-slate-300 min-w-[1200px]">
+            /* Top 50 Bowlers (Innings 2 Defending Master) */
+            <table className="w-full text-left text-xs text-slate-300 min-w-[1450px]">
               <thead className="sticky top-0 z-20 bg-[#0A192F] text-slate-400 uppercase text-[10px] font-black tracking-wider border-b border-white/10 shadow-sm">
                 <tr>
                   <th onClick={() => handleSort('Rank')} className="py-3 px-3 cursor-pointer hover:text-white">
@@ -283,9 +310,12 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                   <th onClick={() => handleSort('Bowler Name')} className="py-3 px-3 cursor-pointer hover:text-white">
                     <span className="flex items-center gap-1">Bowler Name <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
+                  <th className="py-3 px-3 text-emerald-400 font-bold">Defended Below RRR</th>
                   <th onClick={() => handleSort('Defending Margin vs RRR')} className="py-3 px-3 cursor-pointer hover:text-white text-[#D4AF37]">
                     <span className="flex items-center gap-1">Defending Margin <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
+                  <th className="py-3 px-3 text-rose-300 font-bold">Best Bowling Match</th>
+                  <th className="py-3 px-3 text-cyan-300 font-bold">Speed Profile (Avg/Range)</th>
                   <th onClick={() => handleSort('Defending Econ from Ball 1 (Inn 2)')} className="py-3 px-3 cursor-pointer hover:text-white text-[#EB1485]">
                     <span className="flex items-center gap-1">Inn 2 Econ <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
@@ -295,10 +325,9 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                   <th onClick={() => handleSort('Avg Match RRR Defended')} className="py-3 px-3 cursor-pointer hover:text-white">
                     <span className="flex items-center gap-1">Target RRR <ArrowUpDown className="w-3 h-3" /></span>
                   </th>
-                  <th className="py-3 px-3">Overs & Wkts</th>
-                  <th className="py-3 px-3">Defended Below RRR</th>
-                  <th className="py-3 px-3">Best Bowling Match</th>
-                  <th className="py-3 px-3">Speed Profile</th>
+                  <th className="py-3 px-3">Overs &amp; Wkts (Inn 2)</th>
+                  <th className="py-3 px-3">Top Wicket Delivery Style</th>
+                  <th className="py-3 px-3">Yorkers Bowled</th>
                   <th className="py-3 px-3 text-right">Deep Dive</th>
                 </tr>
               </thead>
@@ -316,8 +345,19 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                       <td className="py-3 px-3 font-bold text-white hover:text-[#EB1485] transition-colors">
                         {pName}
                       </td>
+                      <td className="py-3 px-3">
+                        <span className="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                          {row['defended_below_rrr_display'] || `${row['Inns Defended Below RRR']} inns`}
+                        </span>
+                      </td>
                       <td className="py-3 px-3 font-black text-[#D4AF37]">
                         {row['Defending Margin vs RRR']}
+                      </td>
+                      <td className="py-3 px-3 font-bold text-rose-300">
+                        {row['best_bowling_match'] || row['Best Bowling Match (Inn 2)'] || 'N/A'}
+                      </td>
+                      <td className="py-3 px-3 font-medium text-cyan-300 text-[11px]">
+                        {row['speed_profile'] || (row['Average Ball Speed (km/h)'] ? `${row['Average Ball Speed (km/h)']} km/h` : 'N/A')}
                       </td>
                       <td className="py-3 px-3 font-bold text-[#EB1485]">
                         {row['Defending Econ from Ball 1 (Inn 2)']} rpo
@@ -329,16 +369,13 @@ export const Top50SheetsView: React.FC<Top50SheetsViewProps> = ({
                         {row['Avg Match RRR Defended']} rpo
                       </td>
                       <td className="py-3 px-3 text-slate-200 font-medium">
-                        {row['total_overs']} ov ({row['total_wkts']}w)
+                        {row['Total Overs (Inn 2)']} ov ({row['Total Wkts (Inn 2)']}w)
                       </td>
-                      <td className="py-3 px-3 text-slate-300 text-[11px]">
-                        {row['def_below_rrr_display']}
+                      <td className="py-3 px-3 text-slate-300 text-[11px] max-w-xs truncate">
+                        {row['Top Wicket Delivery Style (Inn 2)'] || 'N/A'}
                       </td>
-                      <td className="py-3 px-3 text-slate-400 text-[11px]">
-                        {row['best_bowling_match']}
-                      </td>
-                      <td className="py-3 px-3 text-slate-400 text-[10px] max-w-xs truncate">
-                        {row['speed_profile'] || `${row['avg_spd']} km/h`}
+                      <td className="py-3 px-3 text-slate-400 text-[11px] max-w-xs truncate">
+                        {row['Yorkers Bowled (Inn 2)'] || 'N/A'}
                       </td>
                       <td className="py-3 px-3 text-right">
                         {matchedPlayer && (

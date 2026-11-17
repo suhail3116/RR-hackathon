@@ -69,6 +69,16 @@ export interface BattingStats {
   death_pct: number;
   clutch_delta: number;
   runs_above_par_100: number;
+
+  // Innings 2 Chasing Master & Tactical metrics
+  ten_plus_rrr_display?: string;
+  ten_plus_rrr_avg?: string;
+  ten_plus_rrr_sr?: string;
+  chase_win_pct?: string;
+  chase_win_record?: string;
+  best_match_score?: string;
+  defeat_margin?: string;
+  top_boundary_stroke_inn2?: string;
 }
 
 export interface BowlingStats {
@@ -103,6 +113,17 @@ export interface BowlingStats {
   delivery_styles_list: DeliveryStyleItem[];
   wicket_delivery_styles: Record<string, number>;
   wicket_delivery_styles_list: WicketStyleItem[];
+
+  // Innings 2 Defending Master & Tactical metrics
+  defended_below_rrr_display?: string;
+  defended_below_rrr_count?: number | string;
+  defended_win_record?: string;
+  best_bowling_match?: string;
+  speed_profile?: string;
+  avg_speed_kmh?: number;
+  min_speed_kmh?: number;
+  max_speed_kmh?: number;
+  defending_margin?: string;
 }
 
 export interface Player {

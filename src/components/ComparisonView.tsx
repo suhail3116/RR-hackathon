@@ -501,6 +501,16 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     <span className="text-slate-400">Death Phase % (16-20):</span>
                     <strong className="text-white">{player1.batting.death_pct}%</strong>
                   </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">10+ RRR Chase Avg:</span>
+                    <strong className="text-[#D4AF37]">{player1.batting.ten_plus_rrr_display || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Chase Win % / Best:</span>
+                    <strong className="text-emerald-400">
+                      {player1.batting.chase_win_record || player1.batting.chase_win_pct || `${player1.hp_win_pct.toFixed(1)}%`} ({player1.batting.best_match_score || 'N/A'})
+                    </strong>
+                  </div>
                 </div>
               </div>
 
@@ -546,6 +556,18 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                   <div className="flex justify-between">
                     <span className="text-slate-400">Dot Ball % Bowled:</span>
                     <strong className="text-white">{player1.bowling.dot_pct}% dots</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Defended Below RRR:</span>
+                    <strong className="text-emerald-400">{player1.bowling.defended_below_rrr_display || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Best Bowling Match:</span>
+                    <strong className="text-rose-300">{player1.bowling.best_bowling_match || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Speed Profile:</span>
+                    <strong className="text-cyan-300 text-[11px]">{player1.bowling.speed_profile || (player1.bowling.avg_speed_kmh ? `${player1.bowling.avg_speed_kmh} km/h` : 'N/A')}</strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Opponent WIH / Death %:</span>
@@ -711,6 +733,16 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                     <span className="text-slate-400">Death Phase % (16-20):</span>
                     <strong className="text-white">{player2.batting.death_pct}%</strong>
                   </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">10+ RRR Chase Avg:</span>
+                    <strong className="text-[#D4AF37]">{player2.batting.ten_plus_rrr_display || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Chase Win % / Best:</span>
+                    <strong className="text-emerald-400">
+                      {player2.batting.chase_win_record || player2.batting.chase_win_pct || `${player2.hp_win_pct.toFixed(1)}%`} ({player2.batting.best_match_score || 'N/A'})
+                    </strong>
+                  </div>
                 </div>
               </div>
 
@@ -756,6 +788,18 @@ export const ComparisonView: React.FC<ComparisonViewProps> = ({
                   <div className="flex justify-between">
                     <span className="text-slate-400">Dot Ball % Bowled:</span>
                     <strong className="text-white">{player2.bowling.dot_pct}% dots</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Defended Below RRR:</span>
+                    <strong className="text-emerald-400">{player2.bowling.defended_below_rrr_display || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Best Bowling Match:</span>
+                    <strong className="text-rose-300">{player2.bowling.best_bowling_match || 'N/A'}</strong>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-400">Speed Profile:</span>
+                    <strong className="text-cyan-300 text-[11px]">{player2.bowling.speed_profile || (player2.bowling.avg_speed_kmh ? `${player2.bowling.avg_speed_kmh} km/h` : 'N/A')}</strong>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-slate-400">Opponent WIH / Death %:</span>

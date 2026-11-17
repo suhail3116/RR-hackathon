@@ -31,7 +31,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "470 runs (147.8 SR, 36.2 Avg) [United Arab Emirates]",
-    "Top International Opponent Team (Inn 2)": "Bangladesh (178 runs: 19 4s, 10 6s)"
+    "Top International Opponent Team (Inn 2)": "Bangladesh (178 runs: 19 4s, 10 6s)",
+    "ten_plus_rrr_display": "115.0 Avg @ 191.7 SR",
+    "ten_plus_rrr_avg": "115.0",
+    "ten_plus_rrr_sr": "191.7",
+    "chase_win_record": "2/15 Won (13.3%)",
+    "chase_win_pct": "13.3%",
+    "best_match_score": "82 (42b)",
+    "tot_runs": 470,
+    "tot_bf": 318,
+    "runs_balls_display": "470r (318b)"
   },
   {
     "Rank": 2,
@@ -65,7 +74,16 @@
     "IPL Career Record (Inn 2)": "0 inn2 runs [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "No Inn 2 chase vs IPL teams",
     "International Record (Inn 2)": "346 runs (169.6 SR, 57.7 Avg) [England]",
-    "Top International Opponent Team (Inn 2)": "Sri Lanka (135 runs: 9 4s, 9 6s)"
+    "Top International Opponent Team (Inn 2)": "Sri Lanka (135 runs: 9 4s, 9 6s)",
+    "ten_plus_rrr_display": "103.0 Avg @ 206.0 SR",
+    "ten_plus_rrr_avg": "103.0",
+    "ten_plus_rrr_sr": "206.0",
+    "chase_win_record": "2/10 Won (20.0%)",
+    "chase_win_pct": "20.0%",
+    "best_match_score": "73 (39b)",
+    "tot_runs": 346,
+    "tot_bf": 204,
+    "runs_balls_display": "346r (204b)"
   },
   {
     "Rank": 3,
@@ -99,7 +117,16 @@
     "IPL Career Record (Inn 2)": "6 runs (60.0 SR, 6.0 Avg) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Gujarat Titans (6 runs: 0 4s, 0 6s)",
     "International Record (Inn 2)": "248 runs (131.2 SR, 35.4 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "India (97 runs: 9 4s, 5 6s)"
+    "Top International Opponent Team (Inn 2)": "India (97 runs: 9 4s, 5 6s)",
+    "ten_plus_rrr_display": "96.0 Avg @ 164.1 SR",
+    "ten_plus_rrr_avg": "96.0",
+    "ten_plus_rrr_sr": "164.1",
+    "chase_win_record": "3/10 Won (30.0%)",
+    "chase_win_pct": "30.0%",
+    "best_match_score": "75* (46b)",
+    "tot_runs": 254,
+    "tot_bf": 199,
+    "runs_balls_display": "254r (199b)"
   },
   {
     "Rank": 4,
@@ -133,7 +160,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "467 runs (106.6 SR, 42.5 Avg) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "India (139 runs: 12 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "India (139 runs: 12 4s, 4 6s)",
+    "ten_plus_rrr_display": "69.5 Avg @ 119.8 SR",
+    "ten_plus_rrr_avg": "69.5",
+    "ten_plus_rrr_sr": "119.8",
+    "chase_win_record": "6/17 Won (35.3%)",
+    "chase_win_pct": "35.3%",
+    "best_match_score": "67* (55b)",
+    "tot_runs": 467,
+    "tot_bf": 438,
+    "runs_balls_display": "467r (438b)"
   },
   {
     "Rank": 5,
@@ -167,7 +203,16 @@
     "IPL Career Record (Inn 2)": "568 runs (164.2 SR, 40.6 Avg) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (163 runs: 11 4s, 13 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "59.6 Avg @ 177.4 SR",
+    "ten_plus_rrr_avg": "59.6",
+    "ten_plus_rrr_sr": "177.4",
+    "chase_win_record": "9/25 Won (36.0%)",
+    "chase_win_pct": "36.0%",
+    "best_match_score": "68* (28b)",
+    "tot_runs": 568,
+    "tot_bf": 346,
+    "runs_balls_display": "568r (346b)"
   },
   {
     "Rank": 6,
@@ -201,7 +246,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "744 runs (127.2 SR, 41.3 Avg) [Bangladesh]",
-    "Top International Opponent Team (Inn 2)": "Sri Lanka (125 runs: 7 4s, 5 6s)"
+    "Top International Opponent Team (Inn 2)": "Sri Lanka (125 runs: 7 4s, 5 6s)",
+    "ten_plus_rrr_display": "57.2 Avg @ 145.9 SR",
+    "ten_plus_rrr_avg": "57.2",
+    "ten_plus_rrr_sr": "145.9",
+    "chase_win_record": "12/30 Won (40.0%)",
+    "chase_win_pct": "40.0%",
+    "best_match_score": "83* (50b)",
+    "tot_runs": 785,
+    "tot_bf": 620,
+    "runs_balls_display": "785r (620b)"
   },
   {
     "Rank": 7,
@@ -235,7 +289,16 @@
     "IPL Career Record (Inn 2)": "1,220 runs (146.3 SR, 43.6 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Delhi Capitals (271 runs: 28 4s, 9 6s)",
     "International Record (Inn 2)": "0 inn2 runs [India]",
-    "Top International Opponent Team (Inn 2)": "No Inn 2 chase vs T20I teams"
+    "Top International Opponent Team (Inn 2)": "No Inn 2 chase vs T20I teams",
+    "ten_plus_rrr_display": "55.2 Avg @ 163.3 SR",
+    "ten_plus_rrr_avg": "55.2",
+    "ten_plus_rrr_sr": "163.3",
+    "chase_win_record": "13/31 Won (41.9%)",
+    "chase_win_pct": "41.9%",
+    "best_match_score": "108* (61b)",
+    "tot_runs": 1220,
+    "tot_bf": 834,
+    "runs_balls_display": "1220r (834b)"
   },
   {
     "Rank": 8,
@@ -269,7 +332,16 @@
     "IPL Career Record (Inn 2)": "664 runs (176.1 SR, 44.3 Avg) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (129 runs: 15 4s, 5 6s)",
     "International Record (Inn 2)": "816 runs (167.6 SR, 40.8 Avg) [England]",
-    "Top International Opponent Team (Inn 2)": "West Indies (301 runs: 18 4s, 21 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (301 runs: 18 4s, 21 6s)",
+    "ten_plus_rrr_display": "54.0 Avg @ 194.0 SR",
+    "ten_plus_rrr_avg": "54.0",
+    "ten_plus_rrr_sr": "194.0",
+    "chase_win_record": "16/41 Won (39.0%)",
+    "chase_win_pct": "39.0%",
+    "best_match_score": "109* (56b)",
+    "tot_runs": 1480,
+    "tot_bf": 864,
+    "runs_balls_display": "1480r (864b)"
   },
   {
     "Rank": 9,
@@ -303,7 +375,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "382 runs (146.4 SR, 38.2 Avg) [Ireland]",
-    "Top International Opponent Team (Inn 2)": "Afghanistan (149 runs: 14 4s, 5 6s)"
+    "Top International Opponent Team (Inn 2)": "Afghanistan (149 runs: 14 4s, 5 6s)",
+    "ten_plus_rrr_display": "50.0 Avg @ 165.3 SR",
+    "ten_plus_rrr_avg": "50.0",
+    "ten_plus_rrr_sr": "165.3",
+    "chase_win_record": "6/21 Won (28.6%)",
+    "chase_win_pct": "28.6%",
+    "best_match_score": "58* (37b)",
+    "tot_runs": 382,
+    "tot_bf": 261,
+    "runs_balls_display": "382r (261b)"
   },
   {
     "Rank": 10,
@@ -337,7 +418,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "790 runs (166.7 SR, 43.9 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "West Indies (316 runs: 36 4s, 15 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (316 runs: 36 4s, 15 6s)",
+    "ten_plus_rrr_display": "49.9 Avg @ 175.4 SR",
+    "ten_plus_rrr_avg": "49.9",
+    "ten_plus_rrr_sr": "175.4",
+    "chase_win_record": "5/18 Won (27.8%)",
+    "chase_win_pct": "27.8%",
+    "best_match_score": "117 (63b)",
+    "tot_runs": 790,
+    "tot_bf": 474,
+    "runs_balls_display": "790r (474b)"
   },
   {
     "Rank": 11,
@@ -371,7 +461,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "534 runs (146.7 SR, 38.1 Avg) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (307 runs: 29 4s, 13 6s)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (307 runs: 29 4s, 13 6s)",
+    "ten_plus_rrr_display": "48.8 Avg @ 160.1 SR",
+    "ten_plus_rrr_avg": "48.8",
+    "ten_plus_rrr_sr": "160.1",
+    "chase_win_record": "5/21 Won (23.8%)",
+    "chase_win_pct": "23.8%",
+    "best_match_score": "104* (57b)",
+    "tot_runs": 534,
+    "tot_bf": 364,
+    "runs_balls_display": "534r (364b)"
   },
   {
     "Rank": 12,
@@ -405,7 +504,16 @@
     "IPL Career Record (Inn 2)": "346 runs (157.3 SR, 43.2 Avg) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (69 runs: 6 4s, 4 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "46.6 Avg @ 168.9 SR",
+    "ten_plus_rrr_avg": "46.6",
+    "ten_plus_rrr_sr": "168.9",
+    "chase_win_record": "6/19 Won (31.6%)",
+    "chase_win_pct": "31.6%",
+    "best_match_score": "37* (16b)",
+    "tot_runs": 346,
+    "tot_bf": 220,
+    "runs_balls_display": "346r (220b)"
   },
   {
     "Rank": 13,
@@ -439,7 +547,16 @@
     "IPL Career Record (Inn 2)": "1,166 runs (156.1 SR, 41.6 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (347 runs: 30 4s, 22 6s)",
     "International Record (Inn 2)": "574 runs (158.6 SR, 26.1 Avg) [England]",
-    "Top International Opponent Team (Inn 2)": "West Indies (190 runs: 18 4s, 10 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (190 runs: 18 4s, 10 6s)",
+    "ten_plus_rrr_display": "46.2 Avg @ 169.9 SR",
+    "ten_plus_rrr_avg": "46.2",
+    "ten_plus_rrr_sr": "169.9",
+    "chase_win_record": "22/59 Won (37.3%)",
+    "chase_win_pct": "37.3%",
+    "best_match_score": "107* (60b)",
+    "tot_runs": 1740,
+    "tot_bf": 1109,
+    "runs_balls_display": "1740r (1109b)"
   },
   {
     "Rank": 14,
@@ -473,7 +590,16 @@
     "IPL Career Record (Inn 2)": "650 runs (158.2 SR, 54.2 Avg) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (151 runs: 14 4s, 10 6s)",
     "International Record (Inn 2)": "90 runs (138.5 SR, 45.0 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (39 runs: 3 4s, 2 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (39 runs: 3 4s, 2 6s)",
+    "ten_plus_rrr_display": "44.0 Avg @ 164.3 SR",
+    "ten_plus_rrr_avg": "44.0",
+    "ten_plus_rrr_sr": "164.3",
+    "chase_win_record": "12/30 Won (40.0%)",
+    "chase_win_pct": "40.0%",
+    "best_match_score": "67* (33b)",
+    "tot_runs": 740,
+    "tot_bf": 476,
+    "runs_balls_display": "740r (476b)"
   },
   {
     "Rank": 15,
@@ -507,7 +633,16 @@
     "IPL Career Record (Inn 2)": "1,272 runs (171.0 SR, 43.9 Avg) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (196 runs: 22 4s, 10 6s)",
     "International Record (Inn 2)": "1,017 runs (164.8 SR, 42.4 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (233 runs: 25 4s, 10 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (233 runs: 25 4s, 10 6s)",
+    "ten_plus_rrr_display": "43.4 Avg @ 168.4 SR",
+    "ten_plus_rrr_avg": "43.4",
+    "ten_plus_rrr_sr": "168.4",
+    "chase_win_record": "28/65 Won (43.1%)",
+    "chase_win_pct": "43.1%",
+    "best_match_score": "117 (55b)",
+    "tot_runs": 2289,
+    "tot_bf": 1361,
+    "runs_balls_display": "2289r (1361b)"
   },
   {
     "Rank": 16,
@@ -541,7 +676,16 @@
     "IPL Career Record (Inn 2)": "1,473 runs (153.4 SR, 61.4 Avg) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Gujarat Titans (341 runs: 33 4s, 16 6s)",
     "International Record (Inn 2)": "169 runs (128.0 SR, 24.1 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Australia (74 runs: 5 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "Australia (74 runs: 5 4s, 4 6s)",
+    "ten_plus_rrr_display": "43.0 Avg @ 174.8 SR",
+    "ten_plus_rrr_avg": "43.0",
+    "ten_plus_rrr_sr": "174.8",
+    "chase_win_record": "17/41 Won (41.5%)",
+    "chase_win_pct": "41.5%",
+    "best_match_score": "105* (60b)",
+    "tot_runs": 1642,
+    "tot_bf": 1092,
+    "runs_balls_display": "1642r (1092b)"
   },
   {
     "Rank": 17,
@@ -575,7 +719,16 @@
     "IPL Career Record (Inn 2)": "529 runs (136.0 SR, 29.4 Avg) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (147 runs: 12 4s, 7 6s)",
     "International Record (Inn 2)": "481 runs (180.1 SR, 43.7 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "West Indies (309 runs: 28 4s, 23 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (309 runs: 28 4s, 23 6s)",
+    "ten_plus_rrr_display": "41.0 Avg @ 166.2 SR",
+    "ten_plus_rrr_avg": "41.0",
+    "ten_plus_rrr_sr": "166.2",
+    "chase_win_record": "10/31 Won (32.3%)",
+    "chase_win_pct": "32.3%",
+    "best_match_score": "115 (49b)",
+    "tot_runs": 1010,
+    "tot_bf": 656,
+    "runs_balls_display": "1010r (656b)"
   },
   {
     "Rank": 18,
@@ -609,7 +762,16 @@
     "IPL Career Record (Inn 2)": "1,013 runs (146.8 SR, 39.0 Avg) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (142 runs: 9 4s, 8 6s)",
     "International Record (Inn 2)": "779 runs (129.2 SR, 51.9 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "England (165 runs: 11 4s, 10 6s)"
+    "Top International Opponent Team (Inn 2)": "England (165 runs: 11 4s, 10 6s)",
+    "ten_plus_rrr_display": "40.3 Avg @ 158.4 SR",
+    "ten_plus_rrr_avg": "40.3",
+    "ten_plus_rrr_sr": "158.4",
+    "chase_win_record": "27/66 Won (40.9%)",
+    "chase_win_pct": "40.9%",
+    "best_match_score": "75* (33b)",
+    "tot_runs": 1865,
+    "tot_bf": 1355,
+    "runs_balls_display": "1865r (1355b)"
   },
   {
     "Rank": 19,
@@ -643,7 +805,16 @@
     "IPL Career Record (Inn 2)": "716 runs (144.9 SR, 35.8 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (194 runs: 22 4s, 5 6s)",
     "International Record (Inn 2)": "295 runs (160.3 SR, 59.0 Avg) [Australia]",
-    "Top International Opponent Team (Inn 2)": "West Indies (95 runs: 12 4s, 3 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (95 runs: 12 4s, 3 6s)",
+    "ten_plus_rrr_display": "38.7 Avg @ 157.5 SR",
+    "ten_plus_rrr_avg": "38.7",
+    "ten_plus_rrr_sr": "157.5",
+    "chase_win_record": "8/29 Won (27.6%)",
+    "chase_win_pct": "27.6%",
+    "best_match_score": "86 (58b)",
+    "tot_runs": 1011,
+    "tot_bf": 678,
+    "runs_balls_display": "1011r (678b)"
   },
   {
     "Rank": 20,
@@ -677,7 +848,16 @@
     "IPL Career Record (Inn 2)": "198 runs (159.7 SR, 28.3 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (62 runs: 6 4s, 3 6s)",
     "International Record (Inn 2)": "1,296 runs (143.2 SR, 48.0 Avg) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "India (280 runs: 26 4s, 12 6s)"
+    "Top International Opponent Team (Inn 2)": "India (280 runs: 26 4s, 12 6s)",
+    "ten_plus_rrr_display": "36.9 Avg @ 158.3 SR",
+    "ten_plus_rrr_avg": "36.9",
+    "ten_plus_rrr_sr": "158.3",
+    "chase_win_record": "17/39 Won (43.6%)",
+    "chase_win_pct": "43.6%",
+    "best_match_score": "107 (58b)",
+    "tot_runs": 1494,
+    "tot_bf": 1029,
+    "runs_balls_display": "1494r (1029b)"
   },
   {
     "Rank": 21,
@@ -711,7 +891,16 @@
     "IPL Career Record (Inn 2)": "411 runs (150.0 SR, 31.6 Avg) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (105 runs: 8 4s, 8 6s)",
     "International Record (Inn 2)": "454 runs (153.4 SR, 41.3 Avg) [Australia]",
-    "Top International Opponent Team (Inn 2)": "West Indies (219 runs: 15 4s, 13 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (219 runs: 15 4s, 13 6s)",
+    "ten_plus_rrr_display": "36.8 Avg @ 154.5 SR",
+    "ten_plus_rrr_avg": "36.8",
+    "ten_plus_rrr_sr": "154.5",
+    "chase_win_record": "15/35 Won (42.9%)",
+    "chase_win_pct": "42.9%",
+    "best_match_score": "100* (47b)",
+    "tot_runs": 865,
+    "tot_bf": 570,
+    "runs_balls_display": "865r (570b)"
   },
   {
     "Rank": 22,
@@ -745,7 +934,16 @@
     "IPL Career Record (Inn 2)": "1,124 runs (137.6 SR, 37.5 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (277 runs: 20 4s, 14 6s)",
     "International Record (Inn 2)": "62 runs (92.5 SR, 20.7 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (51 runs: 2 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "South Africa (51 runs: 2 4s, 4 6s)",
+    "ten_plus_rrr_display": "36.6 Avg @ 147.8 SR",
+    "ten_plus_rrr_avg": "36.6",
+    "ten_plus_rrr_sr": "147.8",
+    "chase_win_record": "13/38 Won (34.2%)",
+    "chase_win_pct": "34.2%",
+    "best_match_score": "93* (53b)",
+    "tot_runs": 1186,
+    "tot_bf": 884,
+    "runs_balls_display": "1186r (884b)"
   },
   {
     "Rank": 23,
@@ -779,7 +977,16 @@
     "IPL Career Record (Inn 2)": "544 runs (147.4 SR, 54.4 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (101 runs: 8 4s, 2 6s)",
     "International Record (Inn 2)": "320 runs (139.1 SR, 32.0 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "India (141 runs: 16 4s, 3 6s)"
+    "Top International Opponent Team (Inn 2)": "India (141 runs: 16 4s, 3 6s)",
+    "ten_plus_rrr_display": "35.6 Avg @ 156.1 SR",
+    "ten_plus_rrr_avg": "35.6",
+    "ten_plus_rrr_sr": "156.1",
+    "chase_win_record": "11/37 Won (29.7%)",
+    "chase_win_pct": "29.7%",
+    "best_match_score": "72 (28b)",
+    "tot_runs": 864,
+    "tot_bf": 599,
+    "runs_balls_display": "864r (599b)"
   },
   {
     "Rank": 24,
@@ -813,7 +1020,16 @@
     "IPL Career Record (Inn 2)": "361 runs (177.8 SR, 36.1 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (96 runs: 5 4s, 8 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "35.4 Avg @ 188.3 SR",
+    "ten_plus_rrr_avg": "35.4",
+    "ten_plus_rrr_sr": "188.3",
+    "chase_win_record": "4/16 Won (25.0%)",
+    "chase_win_pct": "25.0%",
+    "best_match_score": "66* (31b)",
+    "tot_runs": 374,
+    "tot_bf": 209,
+    "runs_balls_display": "374r (209b)"
   },
   {
     "Rank": 25,
@@ -847,7 +1063,16 @@
     "IPL Career Record (Inn 2)": "338 runs (178.8 SR, 37.6 Avg) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (83 runs: 5 4s, 7 6s)",
     "International Record (Inn 2)": "69 runs (191.7 SR, 34.5 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (46 runs: 4 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "South Africa (46 runs: 4 4s, 4 6s)",
+    "ten_plus_rrr_display": "35.2 Avg @ 185.4 SR",
+    "ten_plus_rrr_avg": "35.2",
+    "ten_plus_rrr_sr": "185.4",
+    "chase_win_record": "5/22 Won (22.7%)",
+    "chase_win_pct": "22.7%",
+    "best_match_score": "83 (35b)",
+    "tot_runs": 407,
+    "tot_bf": 225,
+    "runs_balls_display": "407r (225b)"
   },
   {
     "Rank": 26,
@@ -881,7 +1106,16 @@
     "IPL Career Record (Inn 2)": "430 runs (174.8 SR, 35.8 Avg) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Kolkata Knight Riders (143 runs: 8 4s, 13 6s)",
     "International Record (Inn 2)": "437 runs (149.7 SR, 33.6 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "West Indies (177 runs: 12 4s, 9 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (177 runs: 12 4s, 9 6s)",
+    "ten_plus_rrr_display": "34.6 Avg @ 191.5 SR",
+    "ten_plus_rrr_avg": "34.6",
+    "ten_plus_rrr_sr": "191.5",
+    "chase_win_record": "12/28 Won (42.9%)",
+    "chase_win_pct": "42.9%",
+    "best_match_score": "83 (32b)",
+    "tot_runs": 867,
+    "tot_bf": 538,
+    "runs_balls_display": "867r (538b)"
   },
   {
     "Rank": 27,
@@ -915,7 +1149,16 @@
     "IPL Career Record (Inn 2)": "554 runs (234.7 SR, 42.6 Avg) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Gujarat Titans (137 runs: 10 4s, 14 6s)",
     "International Record (Inn 2)": "112 runs (219.6 SR, 28.0 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (50 runs: 4 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (50 runs: 4 4s, 4 6s)",
+    "ten_plus_rrr_display": "34.6 Avg @ 238.6 SR",
+    "ten_plus_rrr_avg": "34.6",
+    "ten_plus_rrr_sr": "238.6",
+    "chase_win_record": "12/19 Won (63.2%)",
+    "chase_win_pct": "63.2%",
+    "best_match_score": "101 (38b)",
+    "tot_runs": 716,
+    "tot_bf": 315,
+    "runs_balls_display": "716r (315b)"
   },
   {
     "Rank": 28,
@@ -949,7 +1192,16 @@
     "IPL Career Record (Inn 2)": "878 runs (165.3 SR, 38.2 Avg) [Lucknow Super Giants]",
     "Top IPL Opponent Team (Inn 2)": "Chennai Super Kings (190 runs: 13 4s, 16 6s)",
     "International Record (Inn 2)": "696 runs (152.6 SR, 29.0 Avg) [West Indies]",
-    "Top International Opponent Team (Inn 2)": "India (296 runs: 23 4s, 17 6s)"
+    "Top International Opponent Team (Inn 2)": "India (296 runs: 23 4s, 17 6s)",
+    "ten_plus_rrr_display": "33.3 Avg @ 180.7 SR",
+    "ten_plus_rrr_avg": "33.3",
+    "ten_plus_rrr_sr": "180.7",
+    "chase_win_record": "16/61 Won (26.2%)",
+    "chase_win_pct": "26.2%",
+    "best_match_score": "74* (39b)",
+    "tot_runs": 1574,
+    "tot_bf": 987,
+    "runs_balls_display": "1574r (987b)"
   },
   {
     "Rank": 29,
@@ -983,7 +1235,16 @@
     "IPL Career Record (Inn 2)": "631 runs (153.5 SR, 33.2 Avg) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Chennai Super Kings (162 runs: 16 4s, 7 6s)",
     "International Record (Inn 2)": "314 runs (155.4 SR, 39.2 Avg) [Australia]",
-    "Top International Opponent Team (Inn 2)": "India (85 runs: 6 4s, 4 6s)"
+    "Top International Opponent Team (Inn 2)": "India (85 runs: 6 4s, 4 6s)",
+    "ten_plus_rrr_display": "32.7 Avg @ 165.6 SR",
+    "ten_plus_rrr_avg": "32.7",
+    "ten_plus_rrr_sr": "165.6",
+    "chase_win_record": "16/44 Won (36.4%)",
+    "chase_win_pct": "36.4%",
+    "best_match_score": "124* (63b)",
+    "tot_runs": 945,
+    "tot_bf": 613,
+    "runs_balls_display": "945r (613b)"
   },
   {
     "Rank": 30,
@@ -1017,7 +1278,16 @@
     "IPL Career Record (Inn 2)": "791 runs (153.6 SR, 49.4 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Chennai Super Kings (151 runs: 13 4s, 7 6s)",
     "International Record (Inn 2)": "374 runs (143.8 SR, 28.8 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "India (345 runs: 22 4s, 22 6s)"
+    "Top International Opponent Team (Inn 2)": "India (345 runs: 22 4s, 22 6s)",
+    "ten_plus_rrr_display": "31.5 Avg @ 153.4 SR",
+    "ten_plus_rrr_avg": "31.5",
+    "ten_plus_rrr_sr": "153.4",
+    "chase_win_record": "13/47 Won (27.7%)",
+    "chase_win_pct": "27.7%",
+    "best_match_score": "106* (47b)",
+    "tot_runs": 1165,
+    "tot_bf": 775,
+    "runs_balls_display": "1165r (775b)"
   },
   {
     "Rank": 31,
@@ -1051,7 +1321,16 @@
     "IPL Career Record (Inn 2)": "1,050 runs (172.7 SR, 32.8 Avg) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (238 runs: 22 4s, 17 6s)",
     "International Record (Inn 2)": "847 runs (204.1 SR, 32.6 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (264 runs: 24 4s, 21 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (264 runs: 24 4s, 21 6s)",
+    "ten_plus_rrr_display": "31.0 Avg @ 188.4 SR",
+    "ten_plus_rrr_avg": "31.0",
+    "ten_plus_rrr_sr": "188.4",
+    "chase_win_record": "24/64 Won (37.5%)",
+    "chase_win_pct": "37.5%",
+    "best_match_score": "141 (55b)",
+    "tot_runs": 1996,
+    "tot_bf": 1067,
+    "runs_balls_display": "1996r (1067b)"
   },
   {
     "Rank": 32,
@@ -1085,7 +1364,16 @@
     "IPL Career Record (Inn 2)": "1,286 runs (156.8 SR, 40.2 Avg) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (269 runs: 38 4s, 5 6s)",
     "International Record (Inn 2)": "321 runs (172.6 SR, 64.2 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (93 runs: 13 4s, 2 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (93 runs: 13 4s, 2 6s)",
+    "ten_plus_rrr_display": "30.9 Avg @ 179.3 SR",
+    "ten_plus_rrr_avg": "30.9",
+    "ten_plus_rrr_sr": "179.3",
+    "chase_win_record": "23/43 Won (53.5%)",
+    "chase_win_pct": "53.5%",
+    "best_match_score": "104* (60b)",
+    "tot_runs": 1607,
+    "tot_bf": 1006,
+    "runs_balls_display": "1607r (1006b)"
   },
   {
     "Rank": 33,
@@ -1119,7 +1407,16 @@
     "IPL Career Record (Inn 2)": "663 runs (156.7 SR, 36.8 Avg) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (173 runs: 14 4s, 8 6s)",
     "International Record (Inn 2)": "12 runs (52.2 SR, 4.0 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (6 runs: 1 4s, 0 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (6 runs: 1 4s, 0 6s)",
+    "ten_plus_rrr_display": "30.7 Avg @ 169.8 SR",
+    "ten_plus_rrr_avg": "30.7",
+    "ten_plus_rrr_sr": "169.8",
+    "chase_win_record": "14/31 Won (45.2%)",
+    "chase_win_pct": "45.2%",
+    "best_match_score": "81* (43b)",
+    "tot_runs": 675,
+    "tot_bf": 446,
+    "runs_balls_display": "675r (446b)"
   },
   {
     "Rank": 34,
@@ -1153,7 +1450,16 @@
     "IPL Career Record (Inn 2)": "1,107 runs (165.5 SR, 65.1 Avg) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (247 runs: 25 4s, 12 6s)",
     "International Record (Inn 2)": "340 runs (139.9 SR, 24.3 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (142 runs: 14 4s, 6 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (142 runs: 14 4s, 6 6s)",
+    "ten_plus_rrr_display": "30.1 Avg @ 157.1 SR",
+    "ten_plus_rrr_avg": "30.1",
+    "ten_plus_rrr_sr": "157.1",
+    "chase_win_record": "20/46 Won (43.5%)",
+    "chase_win_pct": "43.5%",
+    "best_match_score": "102* (43b)",
+    "tot_runs": 1447,
+    "tot_bf": 912,
+    "runs_balls_display": "1447r (912b)"
   },
   {
     "Rank": 35,
@@ -1187,7 +1493,16 @@
     "IPL Career Record (Inn 2)": "622 runs (146.4 SR, 32.7 Avg) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (157 runs: 15 4s, 11 6s)",
     "International Record (Inn 2)": "24 runs (184.6 SR, 24* Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (24 runs: 2 4s, 1 6s)"
+    "Top International Opponent Team (Inn 2)": "West Indies (24 runs: 2 4s, 1 6s)",
+    "ten_plus_rrr_display": "29.2 Avg @ 156.0 SR",
+    "ten_plus_rrr_avg": "29.2",
+    "ten_plus_rrr_sr": "156.0",
+    "chase_win_record": "9/24 Won (37.5%)",
+    "chase_win_pct": "37.5%",
+    "best_match_score": "83 (40b)",
+    "tot_runs": 646,
+    "tot_bf": 438,
+    "runs_balls_display": "646r (438b)"
   },
   {
     "Rank": 36,
@@ -1221,7 +1536,16 @@
     "IPL Career Record (Inn 2)": "639 runs (161.4 SR, 37.6 Avg) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Kolkata Knight Riders (132 runs: 3 4s, 13 6s)",
     "International Record (Inn 2)": "248 runs (151.2 SR, 22.5 Avg) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "India (198 runs: 15 4s, 12 6s)"
+    "Top International Opponent Team (Inn 2)": "India (198 runs: 15 4s, 12 6s)",
+    "ten_plus_rrr_display": "29.0 Avg @ 168.1 SR",
+    "ten_plus_rrr_avg": "29.0",
+    "ten_plus_rrr_sr": "168.1",
+    "chase_win_record": "9/33 Won (27.3%)",
+    "chase_win_pct": "27.3%",
+    "best_match_score": "81 (46b)",
+    "tot_runs": 887,
+    "tot_bf": 560,
+    "runs_balls_display": "887r (560b)"
   },
   {
     "Rank": 37,
@@ -1255,7 +1579,16 @@
     "IPL Career Record (Inn 2)": "176 runs (179.6 SR, 35.2 Avg) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (38 runs: 3 4s, 2 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "28.0 Avg @ 186.7 SR",
+    "ten_plus_rrr_avg": "28.0",
+    "ten_plus_rrr_sr": "186.7",
+    "chase_win_record": "3/11 Won (27.3%)",
+    "chase_win_pct": "27.3%",
+    "best_match_score": "34* (11b)",
+    "tot_runs": 176,
+    "tot_bf": 98,
+    "runs_balls_display": "176r (98b)"
   },
   {
     "Rank": 38,
@@ -1289,7 +1622,16 @@
     "IPL Career Record (Inn 2)": "517 runs (146.0 SR, 32.3 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (142 runs: 17 4s, 6 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "27.8 Avg @ 147.3 SR",
+    "ten_plus_rrr_avg": "27.8",
+    "ten_plus_rrr_sr": "147.3",
+    "chase_win_record": "8/32 Won (25.0%)",
+    "chase_win_pct": "25.0%",
+    "best_match_score": "68 (43b)",
+    "tot_runs": 517,
+    "tot_bf": 354,
+    "runs_balls_display": "517r (354b)"
   },
   {
     "Rank": 39,
@@ -1323,7 +1665,16 @@
     "IPL Career Record (Inn 2)": "653 runs (139.8 SR, 32.6 Avg) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (107 runs: 10 4s, 5 6s)",
     "International Record (Inn 2)": "339 runs (176.6 SR, 56.5 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Afghanistan (123 runs: 10 4s, 6 6s)"
+    "Top International Opponent Team (Inn 2)": "Afghanistan (123 runs: 10 4s, 6 6s)",
+    "ten_plus_rrr_display": "27.7 Avg @ 163.4 SR",
+    "ten_plus_rrr_avg": "27.7",
+    "ten_plus_rrr_sr": "163.4",
+    "chase_win_record": "13/38 Won (34.2%)",
+    "chase_win_pct": "34.2%",
+    "best_match_score": "65* (23b)",
+    "tot_runs": 992,
+    "tot_bf": 659,
+    "runs_balls_display": "992r (659b)"
   },
   {
     "Rank": 40,
@@ -1357,7 +1708,16 @@
     "IPL Career Record (Inn 2)": "24 runs (120.0 SR, 8.0 Avg) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (21 runs: 4 4s, 0 6s)",
     "International Record (Inn 2)": "672 runs (161.5 SR, 44.8 Avg) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (278 runs: 24 4s, 19 6s)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (278 runs: 24 4s, 19 6s)",
+    "ten_plus_rrr_display": "27.7 Avg @ 131.7 SR",
+    "ten_plus_rrr_avg": "27.7",
+    "ten_plus_rrr_sr": "131.7",
+    "chase_win_record": "8/20 Won (40.0%)",
+    "chase_win_pct": "40.0%",
+    "best_match_score": "97* (38b)",
+    "tot_runs": 696,
+    "tot_bf": 436,
+    "runs_balls_display": "696r (436b)"
   },
   {
     "Rank": 41,
@@ -1391,7 +1751,16 @@
     "IPL Career Record (Inn 2)": "251 runs (150.3 SR, 27.9 Avg) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (74 runs: 5 4s, 5 6s)",
     "International Record (Inn 2)": "106 runs (173.8 SR, 53.0 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (49 runs: 1 4s, 3 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (49 runs: 1 4s, 3 6s)",
+    "ten_plus_rrr_display": "27.4 Avg @ 156.4 SR",
+    "ten_plus_rrr_avg": "27.4",
+    "ten_plus_rrr_sr": "156.4",
+    "chase_win_record": "4/18 Won (22.2%)",
+    "chase_win_pct": "22.2%",
+    "best_match_score": "41 (20b)",
+    "tot_runs": 357,
+    "tot_bf": 228,
+    "runs_balls_display": "357r (228b)"
   },
   {
     "Rank": 42,
@@ -1425,7 +1794,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "694 runs (128.3 SR, 34.7 Avg) [Bangladesh]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (167 runs: 13 4s, 7 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (167 runs: 13 4s, 7 6s)",
+    "ten_plus_rrr_display": "26.3 Avg @ 164.6 SR",
+    "ten_plus_rrr_avg": "26.3",
+    "ten_plus_rrr_sr": "164.6",
+    "chase_win_record": "11/25 Won (44.0%)",
+    "chase_win_pct": "44.0%",
+    "best_match_score": "73* (47b)",
+    "tot_runs": 694,
+    "tot_bf": 541,
+    "runs_balls_display": "694r (541b)"
   },
   {
     "Rank": 43,
@@ -1459,7 +1837,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "299 runs (159.0 SR, 33.2 Avg) [United Arab Emirates]",
-    "Top International Opponent Team (Inn 2)": "Bangladesh (102 runs: 3 4s, 11 6s)"
+    "Top International Opponent Team (Inn 2)": "Bangladesh (102 runs: 3 4s, 11 6s)",
+    "ten_plus_rrr_display": "25.8 Avg @ 183.9 SR",
+    "ten_plus_rrr_avg": "25.8",
+    "ten_plus_rrr_sr": "183.9",
+    "chase_win_record": "2/11 Won (18.2%)",
+    "chase_win_pct": "18.2%",
+    "best_match_score": "77 (35b)",
+    "tot_runs": 299,
+    "tot_bf": 188,
+    "runs_balls_display": "299r (188b)"
   },
   {
     "Rank": 44,
@@ -1493,7 +1880,16 @@
     "IPL Career Record (Inn 2)": "602 runs (144.0 SR, 30.1 Avg) [Lucknow Super Giants]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (167 runs: 16 4s, 9 6s)",
     "International Record (Inn 2)": "861 runs (163.7 SR, 37.4 Avg) [Australia]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (260 runs: 19 4s, 19 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (260 runs: 19 4s, 19 6s)",
+    "ten_plus_rrr_display": "24.5 Avg @ 135.2 SR",
+    "ten_plus_rrr_avg": "24.5",
+    "ten_plus_rrr_sr": "135.2",
+    "chase_win_record": "18/49 Won (36.7%)",
+    "chase_win_pct": "36.7%",
+    "best_match_score": "103* (52b)",
+    "tot_runs": 1463,
+    "tot_bf": 944,
+    "runs_balls_display": "1463r (944b)"
   },
   {
     "Rank": 45,
@@ -1527,7 +1923,16 @@
     "IPL Career Record (Inn 2)": "1,590 runs (144.4 SR, 41.8 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (292 runs: 35 4s, 7 6s)",
     "International Record (Inn 2)": "353 runs (135.8 SR, 25.2 Avg) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (89 runs: 11 4s, 2 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (89 runs: 11 4s, 2 6s)",
+    "ten_plus_rrr_display": "23.5 Avg @ 167.6 SR",
+    "ten_plus_rrr_avg": "23.5",
+    "ten_plus_rrr_sr": "167.6",
+    "chase_win_record": "24/58 Won (41.4%)",
+    "chase_win_pct": "41.4%",
+    "best_match_score": "104* (52b)",
+    "tot_runs": 1943,
+    "tot_bf": 1361,
+    "runs_balls_display": "1943r (1361b)"
   },
   {
     "Rank": 46,
@@ -1561,7 +1966,16 @@
     "IPL Career Record (Inn 2)": "325 runs (153.3 SR, 40.6 Avg) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (129 runs: 13 4s, 8 6s)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "ten_plus_rrr_display": "21.8 Avg @ 160.3 SR",
+    "ten_plus_rrr_avg": "21.8",
+    "ten_plus_rrr_sr": "160.3",
+    "chase_win_record": "5/11 Won (45.5%)",
+    "chase_win_pct": "45.5%",
+    "best_match_score": "90 (51b)",
+    "tot_runs": 325,
+    "tot_bf": 212,
+    "runs_balls_display": "325r (212b)"
   },
   {
     "Rank": 47,
@@ -1595,7 +2009,16 @@
     "IPL Career Record (Inn 2)": "20 runs (200.0 SR, 20.0 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (20 runs: 1 4s, 2 6s)",
     "International Record (Inn 2)": "949 runs (128.2 SR, 38.0 Avg) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "India (196 runs: 21 4s, 6 6s)"
+    "Top International Opponent Team (Inn 2)": "India (196 runs: 21 4s, 6 6s)",
+    "ten_plus_rrr_display": "20.6 Avg @ 137.3 SR",
+    "ten_plus_rrr_avg": "20.6",
+    "ten_plus_rrr_sr": "137.3",
+    "chase_win_record": "15/32 Won (46.9%)",
+    "chase_win_pct": "46.9%",
+    "best_match_score": "87* (48b)",
+    "tot_runs": 969,
+    "tot_bf": 750,
+    "runs_balls_display": "969r (750b)"
   },
   {
     "Rank": 48,
@@ -1629,7 +2052,16 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "678 runs (122.8 SR, 42.4 Avg) [Pakistan]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (145 runs: 10 4s, 6 6s)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (145 runs: 10 4s, 6 6s)",
+    "ten_plus_rrr_display": "19.0 Avg @ 118.8 SR",
+    "ten_plus_rrr_avg": "19.0",
+    "ten_plus_rrr_sr": "118.8",
+    "chase_win_record": "7/20 Won (35.0%)",
+    "chase_win_pct": "35.0%",
+    "best_match_score": "88* (51b)",
+    "tot_runs": 678,
+    "tot_bf": 552,
+    "runs_balls_display": "678r (552b)"
   },
   {
     "Rank": 49,
@@ -1663,7 +2095,16 @@
     "IPL Career Record (Inn 2)": "61 runs (148.8 SR, 12.2 Avg) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (36 runs: 1 4s, 4 6s)",
     "International Record (Inn 2)": "492 runs (146.9 SR, 49.2 Avg) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "India (164 runs: 14 4s, 10 6s)"
+    "Top International Opponent Team (Inn 2)": "India (164 runs: 14 4s, 10 6s)",
+    "ten_plus_rrr_display": "16.9 Avg @ 157.9 SR",
+    "ten_plus_rrr_avg": "16.9",
+    "ten_plus_rrr_sr": "157.9",
+    "chase_win_record": "6/20 Won (30.0%)",
+    "chase_win_pct": "30.0%",
+    "best_match_score": "78 (40b)",
+    "tot_runs": 553,
+    "tot_bf": 376,
+    "runs_balls_display": "553r (376b)"
   },
   {
     "Rank": 50,
@@ -1697,6 +2138,15 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "143 runs (141.6 SR, 35.8 Avg) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (44 runs: 2 4s, 3 6s)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (44 runs: 2 4s, 3 6s)",
+    "ten_plus_rrr_display": "4.7 Avg @ 66.7 SR",
+    "ten_plus_rrr_avg": "4.7",
+    "ten_plus_rrr_sr": "66.7",
+    "chase_win_record": "5/10 Won (50.0%)",
+    "chase_win_pct": "50.0%",
+    "best_match_score": "44* (25b)",
+    "tot_runs": 143,
+    "tot_bf": 101,
+    "runs_balls_display": "143r (101b)"
   }
 ]

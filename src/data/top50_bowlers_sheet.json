@@ -45,7 +45,15 @@
     "IPL Career Record (Inn 2)": "123.0 ov, 30w (6.93 econ, 24.6 SR) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "defended_below_rrr_display": "28 inns (@ 6.41 econ)",
+    "defended_below_rrr_count": 28,
+    "defended_win_record": "18/33 Defended (54.5%)",
+    "best_bowling_match": "3/29 (4.0 ov)",
+    "speed_profile": "94.2 km/h (80.6 - 109.1)",
+    "total_overs": 123,
+    "total_wkts": 30,
+    "overs_wkts_display": "123 ov (30w)"
   },
   {
     "Rank": 2,
@@ -93,7 +101,15 @@
     "IPL Career Record (Inn 2)": "95.7 ov, 22w (7.26 econ, 26.1 SR) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Delhi Capitals (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "35.0 ov, 14w (6.2 econ, 15.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (4 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (4 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "25 inns (@ 5.31 econ)",
+    "defended_below_rrr_count": 25,
+    "defended_win_record": "26/35 Defended (74.3%)",
+    "best_bowling_match": "4/22 (4.0 ov)",
+    "speed_profile": "135.6 km/h (104.0 - 147.0)",
+    "total_overs": 130.7,
+    "total_wkts": 36,
+    "overs_wkts_display": "130.7 ov (36w)"
   },
   {
     "Rank": 3,
@@ -141,7 +157,15 @@
     "IPL Career Record (Inn 2)": "48.2 ov, 16w (7.29 econ, 18.1 SR) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Delhi Capitals (6 wkts @ 1.2 econ)",
     "International Record (Inn 2)": "120.0 ov, 43w (6.56 econ, 16.7 SR) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "India (14 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "India (14 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "36 inns (@ 5.85 econ)",
+    "defended_below_rrr_count": 36,
+    "defended_win_record": "33/48 Defended (68.8%)",
+    "best_bowling_match": "4/21 (4.0 ov)",
+    "speed_profile": "89.3 km/h (71.7 - 101.9)",
+    "total_overs": 168.2,
+    "total_wkts": 59,
+    "overs_wkts_display": "168.2 ov (59w)"
   },
   {
     "Rank": 4,
@@ -189,7 +213,15 @@
     "IPL Career Record (Inn 2)": "3.0 ov, 2w (7.67 econ, 9.0 SR) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (2 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "99.7 ov, 36w (7.54 econ, 16.6 SR) [England]",
-    "Top International Opponent Team (Inn 2)": "West Indies (12 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (12 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "20 inns (@ 6.83 econ)",
+    "defended_below_rrr_count": 20,
+    "defended_win_record": "23/29 Defended (79.3%)",
+    "best_bowling_match": "4/30 (4.0 ov)",
+    "speed_profile": "82.5 km/h (65.0 - 99.0)",
+    "total_overs": 102.7,
+    "total_wkts": 38,
+    "overs_wkts_display": "102.7 ov (38w)"
   },
   {
     "Rank": 5,
@@ -237,7 +269,15 @@
     "IPL Career Record (Inn 2)": "95.5 ov, 31w (7.64 econ, 18.5 SR) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "No T20I appearances in dataset",
-    "Top International Opponent Team (Inn 2)": "No T20I appearances"
+    "Top International Opponent Team (Inn 2)": "No T20I appearances",
+    "defended_below_rrr_display": "20 inns (@ 6.35 econ)",
+    "defended_below_rrr_count": 20,
+    "defended_win_record": "23/31 Defended (74.2%)",
+    "best_bowling_match": "4/45 (4.0 ov)",
+    "speed_profile": "98.4 km/h (76.8 - 126.4)",
+    "total_overs": 95.5,
+    "total_wkts": 31,
+    "overs_wkts_display": "95.5 ov (31w)"
   },
   {
     "Rank": 6,
@@ -285,7 +325,15 @@
     "IPL Career Record (Inn 2)": "77.0 ov, 18w (7.49 econ, 25.7 SR) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Kolkata Knight Riders (4 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "112.8 ov, 38w (7.86 econ, 17.8 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "Australia (11 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Australia (11 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "45 inns (@ 6.5 econ)",
+    "defended_below_rrr_count": 45,
+    "defended_win_record": "45/62 Defended (72.6%)",
+    "best_bowling_match": "3/15 (3.0 ov)",
+    "speed_profile": "94.4 km/h (76.3 - 106.3)",
+    "total_overs": 189.8,
+    "total_wkts": 56,
+    "overs_wkts_display": "189.8 ov (56w)"
   },
   {
     "Rank": 7,
@@ -333,7 +381,15 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "99.3 ov, 44w (6.46 econ, 13.5 SR) [Pakistan]",
-    "Top International Opponent Team (Inn 2)": "Afghanistan (7 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Afghanistan (7 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "20 inns (@ 4.96 econ)",
+    "defended_below_rrr_count": 20,
+    "defended_win_record": "23/31 Defended (74.2%)",
+    "best_bowling_match": "5/18 (4.0 ov)",
+    "speed_profile": "90.5 km/h (62.4 - 102.0)",
+    "total_overs": 99.3,
+    "total_wkts": 44,
+    "overs_wkts_display": "99.3 ov (44w)"
   },
   {
     "Rank": 8,
@@ -381,7 +437,15 @@
     "IPL Career Record (Inn 2)": "122.3 ov, 47w (8.2 econ, 15.6 SR) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "110.5 ov, 41w (6.1 econ, 16.2 SR) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (11 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (11 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "47 inns (@ 6.24 econ)",
+    "defended_below_rrr_count": 47,
+    "defended_win_record": "45/63 Defended (71.4%)",
+    "best_bowling_match": "4/14 (4.0 ov)",
+    "speed_profile": "93.4 km/h (70.3 - 110.0)",
+    "total_overs": 232.8,
+    "total_wkts": 88,
+    "overs_wkts_display": "232.8 ov (88w)"
   },
   {
     "Rank": 9,
@@ -429,7 +493,15 @@
     "IPL Career Record (Inn 2)": "113.7 ov, 42w (8.3 econ, 16.2 SR) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (10 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "69.0 ov, 35w (8.25 econ, 11.8 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (18 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (18 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "34 inns (@ 7.03 econ)",
+    "defended_below_rrr_count": 34,
+    "defended_win_record": "32/48 Defended (66.7%)",
+    "best_bowling_match": "5/17 (4.0 ov)",
+    "speed_profile": "96.6 km/h (77.8 - 116.8)",
+    "total_overs": 182.7,
+    "total_wkts": 77,
+    "overs_wkts_display": "182.7 ov (77w)"
   },
   {
     "Rank": 10,
@@ -477,7 +549,15 @@
     "IPL Career Record (Inn 2)": "109.8 ov, 27w (8.23 econ, 24.4 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "18.8 ov, 5w (7.01 econ, 22.6 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "29 inns (@ 6.94 econ)",
+    "defended_below_rrr_count": 29,
+    "defended_win_record": "31/43 Defended (72.1%)",
+    "best_bowling_match": "3/20 (4.0 ov)",
+    "speed_profile": "97.5 km/h (61.4 - 110.4)",
+    "total_overs": 128.7,
+    "total_wkts": 32,
+    "overs_wkts_display": "128.7 ov (32w)"
   },
   {
     "Rank": 11,
@@ -525,7 +605,15 @@
     "IPL Career Record (Inn 2)": "91.7 ov, 27w (8.15 econ, 20.4 SR) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Kolkata Knight Riders (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "36.2 ov, 18w (7.91 econ, 12.1 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "25 inns (@ 6.92 econ)",
+    "defended_below_rrr_count": 25,
+    "defended_win_record": "23/36 Defended (63.9%)",
+    "best_bowling_match": "5/17 (2.8 ov)",
+    "speed_profile": "87.1 km/h (76.3 - 119.1)",
+    "total_overs": 127.8,
+    "total_wkts": 45,
+    "overs_wkts_display": "127.8 ov (45w)"
   },
   {
     "Rank": 12,
@@ -573,7 +661,15 @@
     "IPL Career Record (Inn 2)": "106.0 ov, 24w (7.76 econ, 26.5 SR) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Chennai Super Kings (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "20.0 ov, 5w (7.5 econ, 24.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (3 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (3 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "20 inns (@ 6.88 econ)",
+    "defended_below_rrr_count": 20,
+    "defended_win_record": "20/33 Defended (60.6%)",
+    "best_bowling_match": "3/17 (4.0 ov)",
+    "speed_profile": "93.8 km/h (79.5 - 104.4)",
+    "total_overs": 126,
+    "total_wkts": 29,
+    "overs_wkts_display": "126 ov (29w)"
   },
   {
     "Rank": 13,
@@ -621,7 +717,15 @@
     "IPL Career Record (Inn 2)": "128.0 ov, 36w (9.06 econ, 21.3 SR) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (8 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "61.0 ov, 21w (6.87 econ, 17.4 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "35 inns (@ 6.83 econ)",
+    "defended_below_rrr_count": 35,
+    "defended_win_record": "35/53 Defended (66.0%)",
+    "best_bowling_match": "5/4 (4.0 ov)",
+    "speed_profile": "131.0 km/h (82.2 - 143.0)",
+    "total_overs": 189,
+    "total_wkts": 57,
+    "overs_wkts_display": "189 ov (57w)"
   },
   {
     "Rank": 14,
@@ -669,7 +773,15 @@
     "IPL Career Record (Inn 2)": "20.7 ov, 8w (8.23 econ, 15.5 SR) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (4 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "113.5 ov, 38w (8.04 econ, 17.9 SR) [West Indies]",
-    "Top International Opponent Team (Inn 2)": "England (13 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "England (13 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "25 inns (@ 6.74 econ)",
+    "defended_below_rrr_count": 25,
+    "defended_win_record": "20/38 Defended (52.6%)",
+    "best_bowling_match": "4/17 (4.0 ov)",
+    "speed_profile": "91.8 km/h (80.7 - 101.7)",
+    "total_overs": 134.2,
+    "total_wkts": 46,
+    "overs_wkts_display": "134.2 ov (46w)"
   },
   {
     "Rank": 15,
@@ -717,7 +829,15 @@
     "IPL Career Record (Inn 2)": "117.2 ov, 36w (8.32 econ, 19.5 SR) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "20.0 ov, 2w (6.45 econ, 60.0 SR) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "West Indies (1 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (1 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "23 inns (@ 6.63 econ)",
+    "defended_below_rrr_count": 23,
+    "defended_win_record": "23/38 Defended (60.5%)",
+    "best_bowling_match": "3/20 (4.0 ov)",
+    "speed_profile": "133.3 km/h (96.2 - 143.1)",
+    "total_overs": 137.2,
+    "total_wkts": 38,
+    "overs_wkts_display": "137.2 ov (38w)"
   },
   {
     "Rank": 16,
@@ -765,7 +885,15 @@
     "IPL Career Record (Inn 2)": "89.7 ov, 34w (7.95 econ, 15.8 SR) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "15.0 ov, 5w (10.93 econ, 18.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "Australia (3 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Australia (3 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "17 inns (@ 6.55 econ)",
+    "defended_below_rrr_count": 17,
+    "defended_win_record": "19/29 Defended (65.5%)",
+    "best_bowling_match": "3/22 (4.0 ov)",
+    "speed_profile": "137.6 km/h (93.3 - 149.3)",
+    "total_overs": 104.7,
+    "total_wkts": 39,
+    "overs_wkts_display": "104.7 ov (39w)"
   },
   {
     "Rank": 17,
@@ -813,7 +941,15 @@
     "IPL Career Record (Inn 2)": "115.0 ov, 34w (9.31 econ, 20.3 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (8 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "114.3 ov, 43w (7.53 econ, 16.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "46 inns (@ 7.32 econ)",
+    "defended_below_rrr_count": 46,
+    "defended_win_record": "50/67 Defended (74.6%)",
+    "best_bowling_match": "4/12 (2.7 ov)",
+    "speed_profile": "97.4 km/h (80.6 - 141.0)",
+    "total_overs": 229.3,
+    "total_wkts": 77,
+    "overs_wkts_display": "229.3 ov (77w)"
   },
   {
     "Rank": 18,
@@ -861,7 +997,15 @@
     "IPL Career Record (Inn 2)": "131.8 ov, 55w (8.12 econ, 14.4 SR) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (12 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "55.5 ov, 22w (8.61 econ, 15.1 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "32 inns (@ 6.89 econ)",
+    "defended_below_rrr_count": 32,
+    "defended_win_record": "33/52 Defended (63.5%)",
+    "best_bowling_match": "5/40 (4.0 ov)",
+    "speed_profile": "87.0 km/h (67.4 - 113.0)",
+    "total_overs": 187.3,
+    "total_wkts": 77,
+    "overs_wkts_display": "187.3 ov (77w)"
   },
   {
     "Rank": 19,
@@ -909,7 +1053,15 @@
     "IPL Career Record (Inn 2)": "59.5 ov, 21w (8.42 econ, 17.0 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "33.0 ov, 18w (8.39 econ, 11.0 SR) [England]",
-    "Top International Opponent Team (Inn 2)": "India (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "India (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 6.81 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "17/25 Defended (68.0%)",
+    "best_bowling_match": "3/13 (4.0 ov)",
+    "speed_profile": "141.3 km/h (62.0 - 153.6)",
+    "total_overs": 92.5,
+    "total_wkts": 39,
+    "overs_wkts_display": "92.5 ov (39w)"
   },
   {
     "Rank": 20,
@@ -957,7 +1109,15 @@
     "IPL Career Record (Inn 2)": "66.0 ov, 17w (7.5 econ, 23.3 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Royal Challengers Bengaluru (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "120.7 ov, 25w (7.27 econ, 29.0 SR) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "30 inns (@ 6.79 econ)",
+    "defended_below_rrr_count": 30,
+    "defended_win_record": "37/50 Defended (74.0%)",
+    "best_bowling_match": "4/33 (4.0 ov)",
+    "speed_profile": "98.3 km/h (79.4 - 112.8)",
+    "total_overs": 186.7,
+    "total_wkts": 42,
+    "overs_wkts_display": "186.7 ov (42w)"
   },
   {
     "Rank": 21,
@@ -1005,7 +1165,15 @@
     "IPL Career Record (Inn 2)": "47.0 ov, 18w (9.49 econ, 15.7 SR) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Delhi Capitals (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "46.3 ov, 18w (6.78 econ, 15.4 SR) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "Ireland (5 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Ireland (5 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "17 inns (@ 6.51 econ)",
+    "defended_below_rrr_count": 17,
+    "defended_win_record": "21/30 Defended (70.0%)",
+    "best_bowling_match": "4/14 (3.3 ov)",
+    "speed_profile": "137.1 km/h (109.7 - 150.4)",
+    "total_overs": 93.3,
+    "total_wkts": 36,
+    "overs_wkts_display": "93.3 ov (36w)"
   },
   {
     "Rank": 22,
@@ -1053,7 +1221,15 @@
     "IPL Career Record (Inn 2)": "46.8 ov, 17w (8.01 econ, 16.5 SR) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (4 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "37.5 ov, 12w (8.69 econ, 18.8 SR) [England]",
-    "Top International Opponent Team (Inn 2)": "West Indies (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 6.11 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "25/36 Defended (69.4%)",
+    "best_bowling_match": "4/26 (4.0 ov)",
+    "speed_profile": "89.1 km/h (78.0 - 105.7)",
+    "total_overs": 84.3,
+    "total_wkts": 29,
+    "overs_wkts_display": "84.3 ov (29w)"
   },
   {
     "Rank": 23,
@@ -1101,7 +1277,15 @@
     "IPL Career Record (Inn 2)": "97.0 ov, 28w (8.45 econ, 20.8 SR) [Lucknow Super Giants]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "2.5 ov, 3w (10.0 econ, 5.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "England (3 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "England (3 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 7.1 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "17/28 Defended (60.7%)",
+    "best_bowling_match": "4/21 (4.0 ov)",
+    "speed_profile": "137.5 km/h (109.7 - 145.9)",
+    "total_overs": 99.5,
+    "total_wkts": 31,
+    "overs_wkts_display": "99.5 ov (31w)"
   },
   {
     "Rank": 24,
@@ -1149,7 +1333,15 @@
     "IPL Career Record (Inn 2)": "0 inn2 overs [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "No Inn 2 wickets vs IPL teams",
     "International Record (Inn 2)": "92.7 ov, 33w (7.25 econ, 16.8 SR) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "18 inns (@ 6.63 econ)",
+    "defended_below_rrr_count": 18,
+    "defended_win_record": "16/26 Defended (61.5%)",
+    "best_bowling_match": "4/20 (3.0 ov)",
+    "speed_profile": "98.0 km/h (67.8 - 137.7)",
+    "total_overs": 92.7,
+    "total_wkts": 33,
+    "overs_wkts_display": "92.7 ov (33w)"
   },
   {
     "Rank": 25,
@@ -1197,7 +1389,15 @@
     "IPL Career Record (Inn 2)": "37.3 ov, 8w (8.81 econ, 28.0 SR) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (2 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "55.3 ov, 17w (6.83 econ, 19.5 SR) [Bangladesh]",
-    "Top International Opponent Team (Inn 2)": "United Arab Emirates (4 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "United Arab Emirates (4 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "18 inns (@ 5.87 econ)",
+    "defended_below_rrr_count": 18,
+    "defended_win_record": "14/27 Defended (51.9%)",
+    "best_bowling_match": "3/19 (4.0 ov)",
+    "speed_profile": "127.7 km/h (26.1 - 145.0)",
+    "total_overs": 92.7,
+    "total_wkts": 25,
+    "overs_wkts_display": "92.7 ov (25w)"
   },
   {
     "Rank": 26,
@@ -1245,7 +1445,15 @@
     "IPL Career Record (Inn 2)": "61.2 ov, 12w (9.29 econ, 30.6 SR) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (3 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "89.0 ov, 23w (8.69 econ, 23.2 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "England (5 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "England (5 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "30 inns (@ 7.22 econ)",
+    "defended_below_rrr_count": 30,
+    "defended_win_record": "40/58 Defended (69.0%)",
+    "best_bowling_match": "4/16 (4.0 ov)",
+    "speed_profile": "132.5 km/h (108.3 - 153.0)",
+    "total_overs": 150.2,
+    "total_wkts": 35,
+    "overs_wkts_display": "150.2 ov (35w)"
   },
   {
     "Rank": 27,
@@ -1293,7 +1501,15 @@
     "IPL Career Record (Inn 2)": "89.0 ov, 29w (8.36 econ, 18.4 SR) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "46.0 ov, 14w (7.91 econ, 19.7 SR) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (4 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (4 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "21 inns (@ 6.18 econ)",
+    "defended_below_rrr_count": 21,
+    "defended_win_record": "24/40 Defended (60.0%)",
+    "best_bowling_match": "4/10 (4.0 ov)",
+    "speed_profile": "93.1 km/h (77.4 - 103.3)",
+    "total_overs": 135,
+    "total_wkts": 43,
+    "overs_wkts_display": "135 ov (43w)"
   },
   {
     "Rank": 28,
@@ -1341,7 +1557,15 @@
     "IPL Career Record (Inn 2)": "82.7 ov, 29w (9.06 econ, 17.1 SR) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "21.0 ov, 7w (8.14 econ, 18.0 SR) [Australia]",
-    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "17 inns (@ 7.88 econ)",
+    "defended_below_rrr_count": 17,
+    "defended_win_record": "23/29 Defended (79.3%)",
+    "best_bowling_match": "3/22 (4.0 ov)",
+    "speed_profile": "133.6 km/h (106.6 - 150.7)",
+    "total_overs": 103.7,
+    "total_wkts": 36,
+    "overs_wkts_display": "103.7 ov (36w)"
   },
   {
     "Rank": 29,
@@ -1389,7 +1613,15 @@
     "IPL Career Record (Inn 2)": "85.3 ov, 36w (8.82 econ, 14.2 SR) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "41.0 ov, 18w (6.9 econ, 13.7 SR) [Australia]",
-    "Top International Opponent Team (Inn 2)": "Sri Lanka (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Sri Lanka (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "20 inns (@ 6.23 econ)",
+    "defended_below_rrr_count": 20,
+    "defended_win_record": "25/34 Defended (73.5%)",
+    "best_bowling_match": "4/12 (4.0 ov)",
+    "speed_profile": "134.7 km/h (111.3 - 147.8)",
+    "total_overs": 126.3,
+    "total_wkts": 54,
+    "overs_wkts_display": "126.3 ov (54w)"
   },
   {
     "Rank": 30,
@@ -1437,7 +1669,15 @@
     "IPL Career Record (Inn 2)": "138.2 ov, 42w (9.03 econ, 19.7 SR) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (9 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "16.0 ov, 4w (6.12 econ, 24.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (2 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (2 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "27 inns (@ 7.33 econ)",
+    "defended_below_rrr_count": 27,
+    "defended_win_record": "32/45 Defended (71.1%)",
+    "best_bowling_match": "4/21 (4.0 ov)",
+    "speed_profile": "137.6 km/h (98.1 - 154.8)",
+    "total_overs": 154.2,
+    "total_wkts": 46,
+    "overs_wkts_display": "154.2 ov (46w)"
   },
   {
     "Rank": 31,
@@ -1485,7 +1725,15 @@
     "IPL Career Record (Inn 2)": "69.0 ov, 23w (8.75 econ, 18.0 SR) [Mumbai Indians]",
     "Top IPL Opponent Team (Inn 2)": "Delhi Capitals (8 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "17.8 ov, 4w (8.41 econ, 26.8 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (2 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "14 inns (@ 6.85 econ)",
+    "defended_below_rrr_count": 14,
+    "defended_win_record": "19/28 Defended (67.9%)",
+    "best_bowling_match": "3/22 (4.0 ov)",
+    "speed_profile": "128.3 km/h (94.9 - 144.0)",
+    "total_overs": 86.8,
+    "total_wkts": 27,
+    "overs_wkts_display": "86.8 ov (27w)"
   },
   {
     "Rank": 32,
@@ -1533,7 +1781,15 @@
     "IPL Career Record (Inn 2)": "67.2 ov, 26w (8.38 econ, 15.5 SR) [Kolkata Knight Riders]",
     "Top IPL Opponent Team (Inn 2)": "Gujarat Titans (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "33.3 ov, 18w (8.82 econ, 11.1 SR) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "Afghanistan (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Afghanistan (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "19 inns (@ 7.11 econ)",
+    "defended_below_rrr_count": 19,
+    "defended_win_record": "25/31 Defended (80.6%)",
+    "best_bowling_match": "4/23 (4.0 ov)",
+    "speed_profile": "139.7 km/h (103.0 - 153.0)",
+    "total_overs": 100.5,
+    "total_wkts": 44,
+    "overs_wkts_display": "100.5 ov (44w)"
   },
   {
     "Rank": 33,
@@ -1581,7 +1837,15 @@
     "IPL Career Record (Inn 2)": "129.2 ov, 36w (8.93 econ, 21.5 SR) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "137.5 ov, 58w (9.16 econ, 14.2 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (14 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (14 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "44 inns (@ 7.51 econ)",
+    "defended_below_rrr_count": 44,
+    "defended_win_record": "52/76 Defended (68.4%)",
+    "best_bowling_match": "5/49 (4.0 ov)",
+    "speed_profile": "132.1 km/h (103.2 - 144.4)",
+    "total_overs": 266.7,
+    "total_wkts": 94,
+    "overs_wkts_display": "266.7 ov (94w)"
   },
   {
     "Rank": 34,
@@ -1629,7 +1893,15 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "88.5 ov, 29w (7.45 econ, 18.3 SR) [Pakistan]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (12 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (12 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "16 inns (@ 5.79 econ)",
+    "defended_below_rrr_count": 16,
+    "defended_win_record": "14/26 Defended (53.8%)",
+    "best_bowling_match": "4/29 (4.0 ov)",
+    "speed_profile": "134.7 km/h (113.1 - 145.1)",
+    "total_overs": 88.5,
+    "total_wkts": 29,
+    "overs_wkts_display": "88.5 ov (29w)"
   },
   {
     "Rank": 35,
@@ -1677,7 +1949,15 @@
     "IPL Career Record (Inn 2)": "80.0 ov, 25w (8.85 econ, 19.2 SR) [Chennai Super Kings]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "7.0 ov, 1w (6.0 econ, 42.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (1 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (1 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "14 inns (@ 6.74 econ)",
+    "defended_below_rrr_count": 14,
+    "defended_win_record": "16/26 Defended (61.5%)",
+    "best_bowling_match": "3/25 (4.0 ov)",
+    "speed_profile": "133.9 km/h (98.0 - 145.6)",
+    "total_overs": 87,
+    "total_wkts": 26,
+    "overs_wkts_display": "87 ov (26w)"
   },
   {
     "Rank": 36,
@@ -1725,7 +2005,15 @@
     "IPL Career Record (Inn 2)": "14.3 ov, 3w (7.53 econ, 28.7 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (2 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "71.2 ov, 24w (7.69 econ, 17.8 SR) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (7 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (7 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 6.21 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "16/26 Defended (61.5%)",
+    "best_bowling_match": "3/13 (3.2 ov)",
+    "speed_profile": "130.0 km/h (100.5 - 147.0)",
+    "total_overs": 85.5,
+    "total_wkts": 27,
+    "overs_wkts_display": "85.5 ov (27w)"
   },
   {
     "Rank": 37,
@@ -1773,7 +2061,15 @@
     "IPL Career Record (Inn 2)": "81.7 ov, 31w (8.8 econ, 15.8 SR) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "19.2 ov, 7w (7.2 econ, 16.4 SR) [South Africa]",
-    "Top International Opponent Team (Inn 2)": "Australia (3 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Australia (3 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 6.81 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "18/28 Defended (64.3%)",
+    "best_bowling_match": "3/20 (4.0 ov)",
+    "speed_profile": "137.5 km/h (111.7 - 154.2)",
+    "total_overs": 100.8,
+    "total_wkts": 38,
+    "overs_wkts_display": "100.8 ov (38w)"
   },
   {
     "Rank": 38,
@@ -1821,7 +2117,15 @@
     "IPL Career Record (Inn 2)": "96.5 ov, 32w (9.25 econ, 18.1 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (6 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "60.2 ov, 18w (8.91 econ, 20.1 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "23 inns (@ 7.41 econ)",
+    "defended_below_rrr_count": 23,
+    "defended_win_record": "27/45 Defended (60.0%)",
+    "best_bowling_match": "4/18 (4.0 ov)",
+    "speed_profile": "132.3 km/h (103.0 - 144.2)",
+    "total_overs": 156.7,
+    "total_wkts": 50,
+    "overs_wkts_display": "156.7 ov (50w)"
   },
   {
     "Rank": 39,
@@ -1869,7 +2173,15 @@
     "IPL Career Record (Inn 2)": "109.2 ov, 31w (9.15 econ, 21.1 SR) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Lucknow Super Giants (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "43.5 ov, 15w (9.22 econ, 17.4 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "South Africa (7 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "South Africa (7 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "22 inns (@ 7.2 econ)",
+    "defended_below_rrr_count": 22,
+    "defended_win_record": "29/45 Defended (64.4%)",
+    "best_bowling_match": "4/25 (3.2 ov)",
+    "speed_profile": "126.7 km/h (104.0 - 144.0)",
+    "total_overs": 152.7,
+    "total_wkts": 46,
+    "overs_wkts_display": "152.7 ov (46w)"
   },
   {
     "Rank": 40,
@@ -1917,7 +2229,15 @@
     "IPL Career Record (Inn 2)": "42.8 ov, 7w (10.18 econ, 36.7 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Rajasthan Royals (3 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "53.5 ov, 17w (8.69 econ, 18.9 SR) [England]",
-    "Top International Opponent Team (Inn 2)": "Australia (5 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Australia (5 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "16 inns (@ 7.75 econ)",
+    "defended_below_rrr_count": 16,
+    "defended_win_record": "19/32 Defended (59.4%)",
+    "best_bowling_match": "3/25 (4.0 ov)",
+    "speed_profile": "125.4 km/h (75.0 - 143.5)",
+    "total_overs": 96.3,
+    "total_wkts": 24,
+    "overs_wkts_display": "96.3 ov (24w)"
   },
   {
     "Rank": 41,
@@ -1965,7 +2285,15 @@
     "IPL Career Record (Inn 2)": "87.2 ov, 26w (9.82 econ, 20.1 SR) [Rajasthan Royals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "3.0 ov, 1w (8.33 econ, 18.0 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (1 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (1 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "11 inns (@ 7.94 econ)",
+    "defended_below_rrr_count": 11,
+    "defended_win_record": "21/27 Defended (77.8%)",
+    "best_bowling_match": "4/27 (3.0 ov)",
+    "speed_profile": "133.4 km/h (111.6 - 146.4)",
+    "total_overs": 90.2,
+    "total_wkts": 27,
+    "overs_wkts_display": "90.2 ov (27w)"
   },
   {
     "Rank": 42,
@@ -2013,7 +2341,15 @@
     "IPL Career Record (Inn 2)": "49.0 ov, 23w (9.49 econ, 12.8 SR) [Sunrisers Hyderabad]",
     "Top IPL Opponent Team (Inn 2)": "Kolkata Knight Riders (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "33.7 ov, 10w (10.13 econ, 20.2 SR) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (6 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (6 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "16 inns (@ 7.19 econ)",
+    "defended_below_rrr_count": 16,
+    "defended_win_record": "21/29 Defended (72.4%)",
+    "best_bowling_match": "4/32 (4.0 ov)",
+    "speed_profile": "130.8 km/h (101.8 - 146.2)",
+    "total_overs": 93.8,
+    "total_wkts": 37,
+    "overs_wkts_display": "93.8 ov (37w)"
   },
   {
     "Rank": 43,
@@ -2061,7 +2397,15 @@
     "IPL Career Record (Inn 2)": "28.0 ov, 9w (10.11 econ, 18.7 SR) [Punjab Kings]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (4 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "76.8 ov, 26w (8.21 econ, 17.7 SR) [Afghanistan]",
-    "Top International Opponent Team (Inn 2)": "Bangladesh (8 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Bangladesh (8 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "16 inns (@ 6.07 econ)",
+    "defended_below_rrr_count": 16,
+    "defended_win_record": "27/39 Defended (69.2%)",
+    "best_bowling_match": "4/9 (4.0 ov)",
+    "speed_profile": "132.1 km/h (103.6 - 143.0)",
+    "total_overs": 104.8,
+    "total_wkts": 35,
+    "overs_wkts_display": "104.8 ov (35w)"
   },
   {
     "Rank": 44,
@@ -2109,7 +2453,15 @@
     "IPL Career Record (Inn 2)": "54.3 ov, 16w (9.72 econ, 20.4 SR) [Gujarat Titans]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (7 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "89.2 ov, 30w (9.63 econ, 17.8 SR) [West Indies]",
-    "Top International Opponent Team (Inn 2)": "England (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "England (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "18 inns (@ 8.12 econ)",
+    "defended_below_rrr_count": 18,
+    "defended_win_record": "29/42 Defended (69.0%)",
+    "best_bowling_match": "5/27 (2.8 ov)",
+    "speed_profile": "126.0 km/h (12.5 - 144.4)",
+    "total_overs": 143.5,
+    "total_wkts": 46,
+    "overs_wkts_display": "143.5 ov (46w)"
   },
   {
     "Rank": 45,
@@ -2157,7 +2509,15 @@
     "IPL Career Record (Inn 2)": "67.0 ov, 24w (8.97 econ, 16.8 SR) [Lucknow Super Giants]",
     "Top IPL Opponent Team (Inn 2)": "Sunrisers Hyderabad (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "108.0 ov, 42w (8.34 econ, 15.4 SR) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (12 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (12 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "19 inns (@ 6.58 econ)",
+    "defended_below_rrr_count": 19,
+    "defended_win_record": "35/49 Defended (71.4%)",
+    "best_bowling_match": "5/18 (4.0 ov)",
+    "speed_profile": "84.9 km/h (75.6 - 102.9)",
+    "total_overs": 175,
+    "total_wkts": 66,
+    "overs_wkts_display": "175 ov (66w)"
   },
   {
     "Rank": 46,
@@ -2205,7 +2565,15 @@
     "IPL Career Record (Inn 2)": "32.0 ov, 8w (8.34 econ, 24.0 SR) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (2 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "63.8 ov, 22w (8.21 econ, 17.4 SR) [Sri Lanka]",
-    "Top International Opponent Team (Inn 2)": "Pakistan (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Pakistan (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "10 inns (@ 5.64 econ)",
+    "defended_below_rrr_count": 10,
+    "defended_win_record": "12/27 Defended (44.4%)",
+    "best_bowling_match": "4/20 (4.0 ov)",
+    "speed_profile": "134.9 km/h (103.5 - 149.1)",
+    "total_overs": 95.8,
+    "total_wkts": 30,
+    "overs_wkts_display": "95.8 ov (30w)"
   },
   {
     "Rank": 47,
@@ -2253,7 +2621,15 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "105.7 ov, 35w (9.21 econ, 18.1 SR) [New Zealand]",
-    "Top International Opponent Team (Inn 2)": "West Indies (9 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "West Indies (9 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "14 inns (@ 8.11 econ)",
+    "defended_below_rrr_count": 14,
+    "defended_win_record": "21/33 Defended (63.6%)",
+    "best_bowling_match": "3/21 (3.0 ov)",
+    "speed_profile": "86.5 km/h (72.8 - 102.5)",
+    "total_overs": 105.7,
+    "total_wkts": 35,
+    "overs_wkts_display": "105.7 ov (35w)"
   },
   {
     "Rank": 48,
@@ -2301,7 +2677,15 @@
     "IPL Career Record (Inn 2)": "No IPL appearances in dataset",
     "Top IPL Opponent Team (Inn 2)": "No IPL appearances",
     "International Record (Inn 2)": "88.3 ov, 37w (8.86 econ, 14.3 SR) [Pakistan]",
-    "Top International Opponent Team (Inn 2)": "New Zealand (10 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "New Zealand (10 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "10 inns (@ 6.74 econ)",
+    "defended_below_rrr_count": 10,
+    "defended_win_record": "17/26 Defended (65.4%)",
+    "best_bowling_match": "4/18 (3.5 ov)",
+    "speed_profile": "139.1 km/h (112.0 - 155.0)",
+    "total_overs": 88.3,
+    "total_wkts": 37,
+    "overs_wkts_display": "88.3 ov (37w)"
   },
   {
     "Rank": 49,
@@ -2349,7 +2733,15 @@
     "IPL Career Record (Inn 2)": "23.0 ov, 5w (12.83 econ, 27.6 SR) [Royal Challengers Bengaluru]",
     "Top IPL Opponent Team (Inn 2)": "Punjab Kings (2 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "92.8 ov, 29w (9.92 econ, 19.2 SR) [West Indies]",
-    "Top International Opponent Team (Inn 2)": "England (7 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "England (7 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "15 inns (@ 7.84 econ)",
+    "defended_below_rrr_count": 15,
+    "defended_win_record": "25/42 Defended (59.5%)",
+    "best_bowling_match": "3/15 (4.0 ov)",
+    "speed_profile": "126.7 km/h (95.5 - 142.6)",
+    "total_overs": 115.8,
+    "total_wkts": 34,
+    "overs_wkts_display": "115.8 ov (34w)"
   },
   {
     "Rank": 50,
@@ -2397,6 +2789,14 @@
     "IPL Career Record (Inn 2)": "49.2 ov, 14w (11.25 econ, 21.1 SR) [Delhi Capitals]",
     "Top IPL Opponent Team (Inn 2)": "Mumbai Indians (5 wkts @ 0.0 econ)",
     "International Record (Inn 2)": "33.0 ov, 15w (9.67 econ, 13.2 SR) [India]",
-    "Top International Opponent Team (Inn 2)": "Zimbabwe (7 wkts @ 0.0 econ)"
+    "Top International Opponent Team (Inn 2)": "Zimbabwe (7 wkts @ 0.0 econ)",
+    "defended_below_rrr_display": "9 inns (@ 9.06 econ)",
+    "defended_below_rrr_count": 9,
+    "defended_win_record": "18/25 Defended (72.0%)",
+    "best_bowling_match": "4/22 (3.5 ov)",
+    "speed_profile": "132.8 km/h (105.5 - 144.0)",
+    "total_overs": 82.2,
+    "total_wkts": 29,
+    "overs_wkts_display": "82.2 ov (29w)"
   }
 ]
